@@ -1,0 +1,131 @@
+set_pin_assignment	{ Col[0] }	{ LOCATION = E11; }
+set_pin_assignment	{ Col[1] }	{ LOCATION = D11; }
+set_pin_assignment	{ Col[2] }	{ LOCATION = C11; }
+set_pin_assignment	{ Col[3] }	{ LOCATION = F10; }
+set_pin_assignment	{ LED[0] }	{ LOCATION = B14; }
+set_pin_assignment	{ LED[1] }	{ LOCATION = B15; }
+set_pin_assignment	{ LED[2] }	{ LOCATION = B16; }
+set_pin_assignment	{ LED[3] }	{ LOCATION = C15; }
+set_pin_assignment	{ LED[4] }	{ LOCATION = C16; }
+set_pin_assignment	{ LED[5] }	{ LOCATION = E13; }
+set_pin_assignment	{ LED[6] }	{ LOCATION = E16; }
+set_pin_assignment	{ LED[7] }	{ LOCATION = F16; }
+set_pin_assignment	{ RSTn }	{ LOCATION = P15; }
+set_pin_assignment	{ Row[0] }	{ LOCATION = E10; }
+set_pin_assignment	{ Row[1] }	{ LOCATION = C10; }
+set_pin_assignment	{ Row[2] }	{ LOCATION = F9; }
+set_pin_assignment	{ Row[3] }	{ LOCATION = D9; }
+set_pin_assignment	{ SWCLK }	{ LOCATION = P2; }
+set_pin_assignment	{ SWDIO }	{ LOCATION = R2; }
+set_pin_assignment	{ System_clk }	{ LOCATION = R7; }
+set_pin_assignment	{ key[0] }	{ LOCATION = A9; }
+set_pin_assignment	{ key[1] }	{ LOCATION = A10; }
+set_pin_assignment	{ key[2] }	{ LOCATION = B10; }
+set_pin_assignment	{ key[3] }	{ LOCATION = A11; }
+set_pin_assignment	{ key[4] }	{ LOCATION = A12; }
+set_pin_assignment	{ key[5] }	{ LOCATION = B12; }
+set_pin_assignment	{ key[6] }	{ LOCATION = A13; }
+set_pin_assignment	{ key[7] }	{ LOCATION = A14; }
+set_pin_assignment	{ seg_led[0] }	{ LOCATION = A4; }
+set_pin_assignment	{ seg_led[1] }	{ LOCATION = A6; }
+set_pin_assignment	{ seg_led[2] }	{ LOCATION = B8; }
+set_pin_assignment	{ seg_led[3] }	{ LOCATION = E8; }
+set_pin_assignment	{ seg_led[4] }	{ LOCATION = A7; }
+set_pin_assignment	{ seg_led[5] }	{ LOCATION = B5; }
+set_pin_assignment	{ seg_led[6] }	{ LOCATION = A8; }
+set_pin_assignment	{ seg_led[7] }	{ LOCATION = C8; }
+set_pin_assignment	{ seg_sel[0] }	{ LOCATION = C9; }
+set_pin_assignment	{ seg_sel[1] }	{ LOCATION = B6; }
+set_pin_assignment	{ seg_sel[2] }	{ LOCATION = A5; }
+set_pin_assignment	{ seg_sel[3] }	{ LOCATION = A3; }
+set_pin_assignment	{ signal_LED[0] }	{ LOCATION = D3; }
+set_pin_assignment	{ signal_LED[1] }	{ LOCATION = E4; }
+set_pin_assignment	{ signal_LED[2] }	{ LOCATION = C1; }
+set_pin_assignment	{ signal_LED[3] }	{ LOCATION = C2; }
+set_pin_assignment	{ HDMI_CLK_P }	{ LOCATION = P4; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ HDMI_D0_P }	{ LOCATION = J3; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ HDMI_D1_P }	{ LOCATION = N1; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ HDMI_D2_P }	{ LOCATION = P1; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ SD_CLK }	{ LOCATION = J1; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ SD_D[0] }	{ LOCATION = H2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ SD_D[1] }	{ LOCATION = K1; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cs_n }	{ LOCATION = K2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ miso }	{ LOCATION = G1; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ mosi }	{ LOCATION = H1; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ TXD_1 }	{ LOCATION = D12; }
+set_pin_assignment	{ RXD_1 }	{ LOCATION = F12; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

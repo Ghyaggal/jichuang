@@ -1,0 +1,209 @@
+standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        56
+  #input                   19
+  #output                  36
+  #inout                    1
+
+Utilization Statistics
+#lut                    11088   out of  19600   56.57%
+#reg                     4643   out of  19600   23.69%
+#le                     11590
+  #lut only              6947   out of  11590   59.94%
+  #reg only               502   out of  11590    4.33%
+  #lut&reg               4141   out of  11590   35.73%
+#dsp                        3   out of     29   10.34%
+#bram                      28   out of     64   43.75%
+  #bram9k                  28
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#pad                       60   out of    188   31.91%
+  #ireg                     0
+  #oreg                     4
+  #treg                     0
+#pll                        3   out of      4   75.00%
+#gclk                      12   out of     16   75.00%
+
+Clock Resource Statistics
+Index     ClockNet                                                                                    Type               DriverType         Driver                                    Fanout
+#1        u_logic/SCLK                                                                                GCLK               pll                PLL_inst/pll_inst.clkc1                   1463
+#2        med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/clkb    GCLK               pll                PIXEL_PLL_inst/pll_inst.clkc1             1170
+#3        SDRAM_PLL_inst/clk0_buf                                                                     GCLK               pll                SDRAM_PLL_inst/pll_inst.clkc0             201
+#4        SWCLK_dup_1                                                                                 GCLK               io                 SWCLK_syn_2.di                            85
+#5        SD_CLK_dup_1                                                                                GCLK               pll                PLL_inst/pll_inst.clkc2                   54
+#6        u3_hdmi_tx/PXLCLK_5X_I                                                                      GCLK               pll                PIXEL_PLL_inst/pll_inst.clkc2             39
+#7        Gamma_Interface/en_state                                                                    GCLK               lslice             LED_Interface/reg1_syn_28.q0              14
+#8        System_clk_dup_1                                                                            GCLK               io                 System_clk_syn_2.di                       3
+#9        SEG_Interface/smg_inst/cnt_1ms[0]                                                           GCLK               lslice             SEG_Interface/smg_inst/reg0_syn_126.q1    2
+#10       PIXEL_PLL_inst/clk0_buf                                                                     GCLK               pll                PIXEL_PLL_inst/pll_inst.clkc0             0
+#11       PLL_inst/clk0_buf                                                                           GCLK               pll                PLL_inst/pll_inst.clkc0                   0
+#12       sdram_rw_top_inst/clk_sdram                                                                 GCLK               pll                SDRAM_PLL_inst/pll_inst.clkc1             0
+
+
+Detailed IO Report
+
+      Name         Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     Col[3]          INPUT        F10        LVCMOS25          N/A          PULLUP      NONE    
+     Col[2]          INPUT        C11        LVCMOS25          N/A          PULLUP      NONE    
+     Col[1]          INPUT        D11        LVCMOS25          N/A          PULLUP      NONE    
+     Col[0]          INPUT        E11        LVCMOS25          N/A          PULLUP      NONE    
+      RSTn           INPUT        P15        LVCMOS25          N/A          PULLUP      NONE    
+      RXD_1          INPUT        F12        LVCMOS25          N/A          PULLUP      NONE    
+      SWCLK          INPUT         P2        LVCMOS33          N/A          PULLUP      NONE    
+   System_clk        INPUT         R7        LVCMOS25          N/A          PULLUP      NONE    
+     key[7]          INPUT        A14        LVCMOS25          N/A          PULLUP      NONE    
+     key[6]          INPUT        A13        LVCMOS25          N/A          PULLUP      NONE    
+     key[5]          INPUT        B12        LVCMOS25          N/A          PULLUP      NONE    
+     key[4]          INPUT        A12        LVCMOS25          N/A          PULLUP      NONE    
+     key[3]          INPUT        A11        LVCMOS25          N/A          PULLUP      NONE    
+     key[2]          INPUT        B10        LVCMOS25          N/A          PULLUP      NONE    
+     key[1]          INPUT        A10        LVCMOS25          N/A          PULLUP      NONE    
+     key[0]          INPUT         A9        LVCMOS25          N/A          PULLUP      NONE    
+      miso           INPUT         G1        LVCMOS33          N/A          PULLUP      NONE    
+   HDMI_CLK_P       OUTPUT         P4         LVDS33           NA            NONE      ODDRX1   
+  HDMI_CLK_P(n)     OUTPUT         N4         LVDS33           NA            NONE      ODDRX1   
+    HDMI_D0_P       OUTPUT         J3         LVDS33           NA            NONE      ODDRX1   
+  HDMI_D0_P(n)      OUTPUT         J4         LVDS33           NA            NONE      ODDRX1   
+    HDMI_D1_P       OUTPUT         N1         LVDS33           NA            NONE      ODDRX1   
+  HDMI_D1_P(n)      OUTPUT         M1         LVDS33           NA            NONE      ODDRX1   
+    HDMI_D2_P       OUTPUT         P1         LVDS33           NA            NONE      ODDRX1   
+  HDMI_D2_P(n)      OUTPUT         R1         LVDS33           NA            NONE      ODDRX1   
+     LED[7]         OUTPUT        F16        LVCMOS25           8            NONE       NONE    
+     LED[6]         OUTPUT        E16        LVCMOS25           8            NONE       NONE    
+     LED[5]         OUTPUT        E13        LVCMOS25           8            NONE       NONE    
+     LED[4]         OUTPUT        C16        LVCMOS25           8            NONE       NONE    
+     LED[3]         OUTPUT        C15        LVCMOS25           8            NONE       NONE    
+     LED[2]         OUTPUT        B16        LVCMOS25           8            NONE       NONE    
+     LED[1]         OUTPUT        B15        LVCMOS25           8            NONE       NONE    
+     LED[0]         OUTPUT        B14        LVCMOS25           8            NONE       NONE    
+     Row[3]         OUTPUT         D9        LVCMOS25           8            NONE       NONE    
+     Row[2]         OUTPUT         F9        LVCMOS25           8            NONE       NONE    
+     Row[1]         OUTPUT        C10        LVCMOS25           8            NONE       NONE    
+     Row[0]         OUTPUT        E10        LVCMOS25           8            NONE       NONE    
+     SD_CLK         OUTPUT         J1        LVCMOS33           8            NONE       NONE    
+      TXD_1         OUTPUT        D12        LVCMOS25           8            NONE       NONE    
+      cs_n          OUTPUT         K2        LVCMOS33           8            NONE       NONE    
+      mosi          OUTPUT         H1        LVCMOS33           8            NONE       NONE    
+   seg_led[7]       OUTPUT         C8        LVCMOS25           8            NONE       NONE    
+   seg_led[6]       OUTPUT         A8        LVCMOS25           8            NONE       NONE    
+   seg_led[5]       OUTPUT         B5        LVCMOS25           8            NONE       NONE    
+   seg_led[4]       OUTPUT         A7        LVCMOS25           8            NONE       NONE    
+   seg_led[3]       OUTPUT         E8        LVCMOS25           8            NONE       NONE    
+   seg_led[2]       OUTPUT         B8        LVCMOS25           8            NONE       NONE    
+   seg_led[1]       OUTPUT         A6        LVCMOS25           8            NONE       NONE    
+   seg_led[0]       OUTPUT         A4        LVCMOS25           8            NONE       NONE    
+   seg_sel[3]       OUTPUT         A3        LVCMOS25           8            NONE       NONE    
+   seg_sel[2]       OUTPUT         A5        LVCMOS25           8            NONE       NONE    
+   seg_sel[1]       OUTPUT         B6        LVCMOS25           8            NONE       NONE    
+   seg_sel[0]       OUTPUT         C9        LVCMOS25           8            NONE       NONE    
+  signal_LED[3]     OUTPUT         C2        LVCMOS33           8            NONE       NONE    
+  signal_LED[2]     OUTPUT         C1        LVCMOS33           8            NONE       NONE    
+  signal_LED[1]     OUTPUT         E4        LVCMOS33           8            NONE       NONE    
+  signal_LED[0]     OUTPUT         D3        LVCMOS33           8            NONE       NONE    
+      SWDIO          INOUT         R2        LVCMOS33           8           PULLUP      NONE    
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                            |Module                                             |le     |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------------------------------------------+
+|top                                 |CortexM0_SoC                                       |11590  |9655    |1433    |4647    |36      |3       |
+|  AHBlite_SD_Interface              |AHBlite_SD                                         |800    |658     |118     |419     |0       |0       |
+|    SD_top_inst                     |SD_top                                             |768    |628     |118     |389     |0       |0       |
+|      sd_init_inst                  |sd_init                                            |133    |100     |18      |75      |0       |0       |
+|      sd_rd_ctrl_inst               |sd_rd_ctrl                                         |413    |346     |60      |205     |0       |0       |
+|      sd_read_inst                  |sd_read                                            |222    |182     |40      |109     |0       |0       |
+|  Bayer2RGB_Interface               |AHBlite_Bayer2RGB                                  |9      |9       |0       |4       |0       |0       |
+|  Bayer2RGB_inst                    |Bayer2RGB                                          |451    |267     |71      |323     |4       |0       |
+|    Matrix_Generate_3x3_8Bit_inst   |vip_matrix_generate_3x3_8bit                       |130    |84      |3       |126     |4       |0       |
+|      u_line_shift_ram_8bit         |line_shift                                         |53     |12      |3       |49      |4       |0       |
+|        DRAM_inst1                  |DRAM                                               |0      |0       |0       |0       |2       |0       |
+|        DRAM_inst2                  |DRAM                                               |0      |0       |0       |0       |2       |0       |
+|  Curve_Gamma_2P2_inst_blue         |Curve_Gamma_2P2                                    |4      |4       |0       |4       |0       |0       |
+|  Curve_Gamma_2P2_inst_green        |Curve_Gamma_2P2                                    |4      |3       |0       |4       |0       |0       |
+|  Curve_Gamma_2P2_inst_red          |Curve_Gamma_2P2                                    |8      |1       |0       |8       |0       |0       |
+|  Gamma_Interface                   |AHBlite_Gamma                                      |4      |4       |0       |3       |0       |0       |
+|  Interconncet                      |AHBlite_Interconnect                               |6      |6       |0       |6       |0       |0       |
+|    SlaveMUX                        |AHBlite_SlaveMUX                                   |6      |6       |0       |6       |0       |0       |
+|  LED_Interface                     |AHBlite_LED                                        |13     |12      |0       |12      |0       |0       |
+|  Matrix_Key_Interface              |AHBlite_Matrix_Key                                 |4      |4       |0       |4       |0       |0       |
+|  MedFilter_Interface               |AHBlite_MedFilter                                  |2      |2       |0       |2       |0       |0       |
+|  PINTO_Interface                   |AHBlite_PINTO                                      |3      |3       |0       |3       |0       |0       |
+|  PINTO_inst                        |PINTO                                              |1145   |760     |269     |654     |8       |0       |
+|    vip_matrix_generate_5x5_8bit    |vip_matrix_generate_5x5_8bit                       |306    |256     |3       |302     |8       |0       |
+|      u_line_shift_5x5_ram_8bit     |line_shift_5x5                                     |101    |55      |3       |97      |8       |0       |
+|        DRAM_inst1                  |DRAM                                               |0      |0       |0       |0       |2       |0       |
+|        DRAM_inst2                  |DRAM                                               |0      |0       |0       |0       |2       |0       |
+|        DRAM_inst3                  |DRAM                                               |0      |0       |0       |0       |2       |0       |
+|        DRAM_inst4                  |DRAM                                               |0      |0       |0       |0       |2       |0       |
+|  PIXEL_PLL_inst                    |PIXEL_PLL                                          |0      |0       |0       |0       |0       |0       |
+|  PLL_inst                          |PLL                                                |0      |0       |0       |0       |0       |0       |
+|  RAMCODE_Interface                 |AHBlite_Block_RAM                                  |14     |14      |0       |10      |0       |0       |
+|  RAMDATA_Interface                 |AHBlite_Block_RAM                                  |36     |36      |0       |17      |0       |0       |
+|  RAM_CODE                          |Block_RAM                                          |2      |2       |0       |1       |4       |0       |
+|  RAM_DATA                          |Block_RAM                                          |7      |7       |0       |1       |4       |0       |
+|  SDRAM_PLL_inst                    |SDRAM_PLL                                          |0      |0       |0       |0       |0       |0       |
+|  SEG_Interface                     |AHBlite_SEG                                        |41     |36      |5       |25      |0       |0       |
+|    smg_inst                        |smg                                                |33     |28      |5       |17      |0       |0       |
+|  Timer_Interface                   |AHBlite_Timer                                      |92     |74      |18      |59      |0       |0       |
+|  UART1_RX                          |UART_RX                                            |19     |19      |0       |18      |0       |0       |
+|  UART1_TX                          |UART_TX                                            |76     |76      |0       |17      |0       |0       |
+|    FIFO                            |FIFO                                               |46     |46      |0       |11      |0       |0       |
+|  UART_Interface                    |AHBlite_UART                                       |6      |6       |0       |5       |0       |0       |
+|  clkuart1_pwm                      |clkuart_pwm                                        |18     |15      |3       |10      |0       |0       |
+|  kb                                |Keyboard                                           |294    |246     |48      |143     |0       |0       |
+|  med_filter_proc__red_inst         |med_filter_proc                                    |689    |411     |193     |293     |12      |0       |
+|    Matrix_Generate_3x3_8Bit_inst   |vip_matrix_generate_3x3_8bit                       |152    |78      |3       |148     |12      |0       |
+|      u_line_shift_ram_8bit         |line_shift                                         |61     |5       |3       |57      |12      |0       |
+|        DRAM_inst1                  |DRAM                                               |0      |0       |0       |0       |6       |0       |
+|        DRAM_inst2                  |DRAM                                               |0      |0       |0       |0       |6       |0       |
+|  med_filter_proc_green_inst        |med_filter_proc                                    |624    |397     |190     |264     |0       |0       |
+|    Matrix_Generate_3x3_8Bit_inst   |vip_matrix_generate_3x3_8bit                       |104    |86      |0       |104     |0       |0       |
+|      u_line_shift_ram_8bit         |line_shift                                         |30     |12      |0       |30      |0       |0       |
+|  med_filter_proc_inst              |med_filter_proc                                    |632    |401     |190     |280     |0       |0       |
+|    Matrix_Generate_3x3_8Bit_inst   |vip_matrix_generate_3x3_8bit                       |100    |76      |0       |100     |0       |0       |
+|      u_line_shift_ram_8bit         |line_shift                                         |25     |4       |0       |25      |0       |0       |
+|  sdram_rw_top_inst                 |sdram_rw_top                                       |676    |517     |101     |383     |4       |0       |
+|    SDRAM_inst                      |SDRAM                                              |0      |0       |0       |0       |0       |0       |
+|    u_sdram_top                     |sdram_top                                          |676    |517     |101     |383     |4       |0       |
+|      u_sdram_controller            |sdram_controller                                   |283    |233     |40      |126     |0       |0       |
+|        u_sdram_cmd                 |sdram_cmd                                          |57     |57      |0       |18      |0       |0       |
+|        u_sdram_ctrl                |sdram_ctrl                                         |179    |134     |40      |61      |0       |0       |
+|        u_sdram_data                |sdram_data                                         |47     |42      |0       |47      |0       |0       |
+|      u_sdram_fifo_ctrl             |sdram_fifo_ctrl                                    |393    |284     |61      |257     |4       |0       |
+|        rdfifo                      |SDRAM_READ_FIFO                                    |137    |83      |17      |108     |2       |0       |
+|          ram_inst                  |ram_infer_SDRAM_READ_FIFO                          |8      |6       |0       |8       |2       |0       |
+|          rd_to_wr_cross_inst       |fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO  |36     |25      |0       |36      |0       |0       |
+|          wr_to_rd_cross_inst       |fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO  |35     |25      |0       |35      |0       |0       |
+|        wrfifo                      |SDRAM_WRITE_FIFO                                   |139    |111     |18      |111     |2       |0       |
+|          ram_inst                  |ram_infer_SDRAM_WRITE_FIFO                         |21     |19      |0       |21      |2       |0       |
+|          rd_to_wr_cross_inst       |fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO |39     |31      |0       |39      |0       |0       |
+|          wr_to_rd_cross_inst       |fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO |29     |29      |0       |29      |0       |0       |
+|  u3_hdmi_tx                        |hdmi_tx                                            |351    |292     |54      |173     |0       |0       |
+|    Inst_DVITransmitter             |DVITransmitter                                     |351    |292     |54      |173     |0       |0       |
+|      Inst_TMDSEncoder_blue         |TMDSEncoder                                        |108    |89      |18      |47      |0       |0       |
+|      Inst_TMDSEncoder_green        |TMDSEncoder                                        |105    |86      |18      |45      |0       |0       |
+|      Inst_TMDSEncoder_red          |TMDSEncoder                                        |99     |81      |18      |43      |0       |0       |
+|      Inst_blue_serializer_10_1     |Serial_N_1_lvds_dat                                |13     |12      |0       |13      |0       |0       |
+|      Inst_clk_serializer_10_1      |Serial_N_1_lvds                                    |4      |4       |0       |4       |0       |0       |
+|      Inst_green_serializer_10_1    |Serial_N_1_lvds_dat                                |12     |10      |0       |12      |0       |0       |
+|      Inst_red_serializer_10_1      |Serial_N_1_lvds_dat                                |10     |10      |0       |9       |0       |0       |
+|  u_logic                           |cortexm0ds_logic                                   |5246   |5200    |46      |1427    |0       |3       |
+|  video_1936x1088_to_1920x1080_inst |video_1936x1088_to_1920x1080                       |135    |71      |59      |26      |0       |0       |
+|  video_driver_inst                 |video_driver                                       |159    |91      |68      |27      |0       |0       |
++---------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets  
+    #1          1       6689  
+    #2          2       2708  
+    #3          3       775   
+    #4          4       783   
+    #5        5-10      1575  
+    #6        11-50     530   
+    #7       51-100      23   
+    #8       101-500     1    
+  Average     3.17            

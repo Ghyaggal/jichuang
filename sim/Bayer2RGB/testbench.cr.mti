@@ -1,0 +1,80 @@
+C:/Users/Daggal/Desktop/Bayer2RGB/test.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/test.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/RAM.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/RAM.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module DRAM
+
+Top level modules:
+	DRAM
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/line_shift_fifo.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/line_shift_fifo.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module line_shift_fifo
+
+Top level modules:
+	line_shift_fifo
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/delay11.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/delay11.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module delay20
+-- Compiling module delay11
+
+Top level modules:
+	delay20
+	delay11
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/Matrix_3x3.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/Matrix_3x3.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Matrix_3X3
+
+Top level modules:
+	Matrix_3X3
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/vip_matrix_generate_3x3_8bit.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/vip_matrix_generate_3x3_8bit.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module vip_matrix_generate_3x3_8bit
+
+Top level modules:
+	vip_matrix_generate_3x3_8bit
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/line_shift_fifo_sim.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/line_shift_fifo_sim.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module line_shift_fifo
+
+Top level modules:
+	line_shift_fifo
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/fifo_ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/fifo_ctrl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module fifo_ctrl
+
+Top level modules:
+	fifo_ctrl
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/testbench.sv
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/delay11_3.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/delay11_3.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module delay11_3
+
+Top level modules:
+	delay11_3
+
+} {} {}} C:/Users/Daggal/Desktop/Bayer2RGB/ram_d.v {1 {vlog -work work -vopt -stats=none C:/Users/Daggal/Desktop/Bayer2RGB/ram_d.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ram_dual
+
+Top level modules:
+	ram_dual
+
+} {} {}}

@@ -1,0 +1,123 @@
+standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        56
+  #input                   19
+  #output                  36
+  #inout                    1
+
+LUT Statistics
+#Total_luts             11213
+  #lut4                  6398
+  #lut5                  1497
+  #lut6                     1
+  #lut5_mx41                0
+  #lut4_alu1b            3317
+
+Utilization Statistics
+#lut                    11214   out of  19600   57.21%
+#reg                     4570   out of  19600   23.32%
+#le                         0
+#dsp                        3   out of     29   10.34%
+#bram                      28   out of     64   43.75%
+  #bram9k                  28
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#dram                       4
+#pad                       60   out of    188   31.91%
+  #ireg                     0
+  #oreg                     4
+  #treg                     0
+#pll                        3   out of      4   75.00%
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                            |Module                                             |lut     |ripple  |seq     |bram    |dsp     |
++-------------------------------------------------------------------------------------------------------------------------------------+
+|top                                 |CortexM0_SoC                                       |7897    |3317    |4574    |36      |3       |
+|  AHBlite_SD_Interface              |AHBlite_SD                                         |630     |316     |404     |0       |0       |
+|    SD_top_inst                     |SD_top                                             |618     |316     |365     |0       |0       |
+|      sd_init_inst                  |sd_init                                            |85      |45      |75      |0       |0       |
+|      sd_rd_ctrl_inst               |sd_rd_ctrl                                         |383     |178     |189     |0       |0       |
+|      sd_read_inst                  |sd_read                                            |150     |93      |101     |0       |0       |
+|  Bayer2RGB_Interface               |AHBlite_Bayer2RGB                                  |8       |0       |2       |0       |0       |
+|  Bayer2RGB_inst                    |Bayer2RGB                                          |186     |210     |325     |4       |0       |
+|    Matrix_Generate_3x3_8Bit_inst   |vip_matrix_generate_3x3_8bit                       |72      |12      |154     |4       |0       |
+|      u_line_shift_ram_8bit         |line_shift                                         |0       |12      |68      |4       |0       |
+|        DRAM_inst1                  |DRAM                                               |0       |0       |0       |2       |0       |
+|        DRAM_inst2                  |DRAM                                               |0       |0       |0       |2       |0       |
+|  Curve_Gamma_2P2_inst_blue         |Curve_Gamma_2P2                                    |0       |0       |8       |0       |0       |
+|  Curve_Gamma_2P2_inst_green        |Curve_Gamma_2P2                                    |0       |0       |8       |0       |0       |
+|  Curve_Gamma_2P2_inst_red          |Curve_Gamma_2P2                                    |0       |0       |8       |0       |0       |
+|  Gamma_Interface                   |AHBlite_Gamma                                      |4       |0       |2       |0       |0       |
+|  Interconncet                      |AHBlite_Interconnect                               |2       |0       |12      |0       |0       |
+|    SlaveMUX                        |AHBlite_SlaveMUX                                   |0       |0       |12      |0       |0       |
+|  LED_Interface                     |AHBlite_LED                                        |11      |0       |15      |0       |0       |
+|  Matrix_Key_Interface              |AHBlite_Matrix_Key                                 |6       |0       |5       |0       |0       |
+|  MedFilter_Interface               |AHBlite_MedFilter                                  |3       |0       |2       |0       |0       |
+|  PINTO_Interface                   |AHBlite_PINTO                                      |3       |0       |2       |0       |0       |
+|  PINTO_inst                        |PINTO                                              |417     |580     |676     |8       |0       |
+|    vip_matrix_generate_5x5_8bit    |vip_matrix_generate_5x5_8bit                       |192     |12      |336     |8       |0       |
+|      u_line_shift_5x5_ram_8bit     |line_shift_5x5                                     |0       |12      |124     |8       |0       |
+|        DRAM_inst1                  |DRAM                                               |0       |0       |0       |2       |0       |
+|        DRAM_inst2                  |DRAM                                               |0       |0       |0       |2       |0       |
+|        DRAM_inst3                  |DRAM                                               |0       |0       |0       |2       |0       |
+|        DRAM_inst4                  |DRAM                                               |0       |0       |0       |2       |0       |
+|  PIXEL_PLL_inst                    |PIXEL_PLL                                          |0       |0       |0       |0       |0       |
+|  PLL_inst                          |PLL                                                |0       |0       |0       |0       |0       |
+|  RAMCODE_Interface                 |AHBlite_Block_RAM                                  |9       |0       |17      |0       |0       |
+|  RAMDATA_Interface                 |AHBlite_Block_RAM                                  |34      |0       |17      |0       |0       |
+|  RAM_CODE                          |Block_RAM                                          |4       |0       |0       |4       |0       |
+|  RAM_DATA                          |Block_RAM                                          |4       |0       |0       |4       |0       |
+|  SDRAM_PLL_inst                    |SDRAM_PLL                                          |0       |0       |0       |0       |0       |
+|  SEG_Interface                     |AHBlite_SEG                                        |32      |17      |35      |0       |0       |
+|    smg_inst                        |smg                                                |29      |17      |18      |0       |0       |
+|  Timer_Interface                   |AHBlite_Timer                                      |39      |66      |68      |0       |0       |
+|  UART1_RX                          |UART_RX                                            |27      |0       |21      |0       |0       |
+|  UART1_TX                          |UART_TX                                            |52      |0       |18      |0       |0       |
+|    FIFO                            |FIFO                                               |26      |0       |12      |0       |0       |
+|  UART_Interface                    |AHBlite_UART                                       |8       |0       |6       |0       |0       |
+|  clkuart1_pwm                      |clkuart_pwm                                        |12      |9       |9       |0       |0       |
+|  kb                                |Keyboard                                           |208     |168     |160     |0       |0       |
+|  med_filter_proc__red_inst         |med_filter_proc                                    |210     |392     |297     |12      |0       |
+|    Matrix_Generate_3x3_8Bit_inst   |vip_matrix_generate_3x3_8bit                       |72      |12      |153     |12      |0       |
+|      u_line_shift_ram_8bit         |line_shift                                         |0       |12      |68      |12      |0       |
+|        DRAM_inst1                  |DRAM                                               |0       |0       |0       |6       |0       |
+|        DRAM_inst2                  |DRAM                                               |0       |0       |0       |6       |0       |
+|  med_filter_proc_green_inst        |med_filter_proc                                    |210     |380     |248     |0       |0       |
+|    Matrix_Generate_3x3_8Bit_inst   |vip_matrix_generate_3x3_8bit                       |72      |0       |112     |0       |0       |
+|      u_line_shift_ram_8bit         |line_shift                                         |0       |0       |32      |0       |0       |
+|  med_filter_proc_inst              |med_filter_proc                                    |210     |380     |248     |0       |0       |
+|    Matrix_Generate_3x3_8Bit_inst   |vip_matrix_generate_3x3_8bit                       |72      |0       |112     |0       |0       |
+|      u_line_shift_ram_8bit         |line_shift                                         |0       |0       |32      |0       |0       |
+|        DRAM_inst2                  |DRAM                                               |0       |0       |0       |0       |0       |
+|  sdram_rw_top_inst                 |sdram_rw_top                                       |279     |269     |414     |4       |0       |
+|    SDRAM_inst                      |SDRAM                                              |0       |0       |0       |0       |0       |
+|    u_sdram_top                     |sdram_top                                          |279     |269     |414     |4       |0       |
+|      u_sdram_controller            |sdram_controller                                   |144     |97      |131     |0       |0       |
+|        u_sdram_cmd                 |sdram_cmd                                          |53      |0       |18      |0       |0       |
+|        u_sdram_ctrl                |sdram_ctrl                                         |91      |97      |48      |0       |0       |
+|        u_sdram_data                |sdram_data                                         |0       |0       |65      |0       |0       |
+|      u_sdram_fifo_ctrl             |sdram_fifo_ctrl                                    |135     |172     |283     |4       |0       |
+|        rdfifo                      |SDRAM_READ_FIFO                                    |41      |54      |109     |2       |0       |
+|          ram_inst                  |ram_infer_SDRAM_READ_FIFO                          |0       |0       |8       |2       |0       |
+|          rd_to_wr_cross_inst       |fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO  |16      |0       |36      |0       |0       |
+|          wr_to_rd_cross_inst       |fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO  |16      |0       |40      |0       |0       |
+|        wrfifo                      |SDRAM_WRITE_FIFO                                   |41      |56      |133     |2       |0       |
+|          ram_inst                  |ram_infer_SDRAM_WRITE_FIFO                         |0       |0       |32      |2       |0       |
+|          rd_to_wr_cross_inst       |fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO |16      |0       |40      |0       |0       |
+|          wr_to_rd_cross_inst       |fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO |16      |0       |36      |0       |0       |
+|  u3_hdmi_tx                        |hdmi_tx                                            |239     |90      |185     |0       |0       |
+|    Inst_DVITransmitter             |DVITransmitter                                     |239     |90      |185     |0       |0       |
+|      Inst_TMDSEncoder_blue         |TMDSEncoder                                        |75      |30      |48      |0       |0       |
+|      Inst_TMDSEncoder_green        |TMDSEncoder                                        |68      |30      |41      |0       |0       |
+|      Inst_TMDSEncoder_red          |TMDSEncoder                                        |68      |30      |41      |0       |0       |
+|      Inst_blue_serializer_10_1     |Serial_N_1_lvds_dat                                |10      |0       |20      |0       |0       |
+|      Inst_clk_serializer_10_1      |Serial_N_1_lvds                                    |2       |0       |7       |0       |0       |
+|      Inst_green_serializer_10_1    |Serial_N_1_lvds_dat                                |8       |0       |14      |0       |0       |
+|      Inst_red_serializer_10_1      |Serial_N_1_lvds_dat                                |8       |0       |14      |0       |0       |
+|  u_logic                           |cortexm0ds_logic                                   |5001    |173     |1306    |0       |3       |
+|  video_1936x1088_to_1920x1080_inst |video_1936x1088_to_1920x1080                       |17      |126     |25      |0       |0       |
+|  video_driver_inst                 |video_driver                                       |24      |141     |23      |0       |0       |
++-------------------------------------------------------------------------------------------------------------------------------------+

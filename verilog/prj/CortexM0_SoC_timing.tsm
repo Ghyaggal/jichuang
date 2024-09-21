@@ -1,0 +1,956 @@
+eagle_s20
+13 33 949 11926 2000139508 0 0
+0.219 0.074 CortexM0_SoC eagle_s20 EG4S20BG256 Detail NA 25 5
+clock: System_clk
+15 0 0 0
+
+clock: pclk
+23 139236 5202 4
+Setup check
+33 3
+Endpoint: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46
+33 0.219000 183 3
+Timing path: video_driver_inst/lt2_syn_55.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46
+video_driver_inst/lt2_syn_55.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46
+35 0.219000 12.024000 11.805000 6 11
+video_driver_inst/cnt_h[1] video_driver_inst/lt3_syn_58.a[0]
+video_driver_inst/lt3_syn_10 video_driver_inst/lt3_syn_61.fci
+video_driver_inst/lt3_syn_14 video_driver_inst/lt3_syn_64.fci
+video_driver_inst/lt3_syn_18 video_driver_inst/lt3_syn_67.fci
+video_driver_inst/lt3_syn_22 video_driver_inst/lt3_syn_70.fci
+video_driver_inst/lt3_syn_26 video_driver_inst/lt3_syn_72.fci
+video_driver_inst/data_req_n3 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.b[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_59 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_69.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[6] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46.mi[0]
+
+Timing path: video_driver_inst/reg1_syn_74.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46
+video_driver_inst/reg1_syn_74.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46
+89 0.433000 12.024000 11.591000 6 8
+video_driver_inst/cnt_v[6] video_driver_inst/lt0_syn_61.b[0]
+video_driver_inst/lt0_syn_19 video_driver_inst/lt0_syn_64.fci
+video_driver_inst/lt0_syn_23 video_driver_inst/lt0_syn_67.fci
+video_driver_inst/data_req_n5 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.c[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_59 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_69.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[6] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46.mi[0]
+
+Timing path: video_driver_inst/lt3_syn_55.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46
+video_driver_inst/lt3_syn_55.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46
+137 0.449000 12.024000 11.575000 6 12
+video_driver_inst/cnt_h[0] video_driver_inst/lt3_syn_55.a[1]
+video_driver_inst/lt3_syn_6 video_driver_inst/lt3_syn_58.fci
+video_driver_inst/lt3_syn_10 video_driver_inst/lt3_syn_61.fci
+video_driver_inst/lt3_syn_14 video_driver_inst/lt3_syn_64.fci
+video_driver_inst/lt3_syn_18 video_driver_inst/lt3_syn_67.fci
+video_driver_inst/lt3_syn_22 video_driver_inst/lt3_syn_70.fci
+video_driver_inst/lt3_syn_26 video_driver_inst/lt3_syn_72.fci
+video_driver_inst/data_req_n3 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.b[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_59 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_69.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[6] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_to_wr_cross_inst/reg0_syn_46.mi[0]
+
+
+Endpoint: AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580
+193 0.601000 187 3
+Timing path: video_driver_inst/lt2_syn_55.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580
+video_driver_inst/lt2_syn_55.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580
+195 0.601000 12.024000 11.423000 6 12
+video_driver_inst/cnt_h[1] video_driver_inst/lt3_syn_58.a[0]
+video_driver_inst/lt3_syn_10 video_driver_inst/lt3_syn_61.fci
+video_driver_inst/lt3_syn_14 video_driver_inst/lt3_syn_64.fci
+video_driver_inst/lt3_syn_18 video_driver_inst/lt3_syn_67.fci
+video_driver_inst/lt3_syn_22 video_driver_inst/lt3_syn_70.fci
+video_driver_inst/lt3_syn_26 video_driver_inst/lt3_syn_72.fci
+video_driver_inst/data_req_n3 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.b[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_59 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_69.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_63 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_70.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[10] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580.mi[0]
+
+Timing path: video_driver_inst/reg1_syn_74.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580
+video_driver_inst/reg1_syn_74.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580
+251 0.815000 12.024000 11.209000 6 9
+video_driver_inst/cnt_v[6] video_driver_inst/lt0_syn_61.b[0]
+video_driver_inst/lt0_syn_19 video_driver_inst/lt0_syn_64.fci
+video_driver_inst/lt0_syn_23 video_driver_inst/lt0_syn_67.fci
+video_driver_inst/data_req_n5 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.c[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_59 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_69.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_63 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_70.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[10] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580.mi[0]
+
+Timing path: video_driver_inst/lt3_syn_55.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580
+video_driver_inst/lt3_syn_55.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580
+301 0.831000 12.024000 11.193000 6 13
+video_driver_inst/cnt_h[0] video_driver_inst/lt3_syn_55.a[1]
+video_driver_inst/lt3_syn_6 video_driver_inst/lt3_syn_58.fci
+video_driver_inst/lt3_syn_10 video_driver_inst/lt3_syn_61.fci
+video_driver_inst/lt3_syn_14 video_driver_inst/lt3_syn_64.fci
+video_driver_inst/lt3_syn_18 video_driver_inst/lt3_syn_67.fci
+video_driver_inst/lt3_syn_22 video_driver_inst/lt3_syn_70.fci
+video_driver_inst/lt3_syn_26 video_driver_inst/lt3_syn_72.fci
+video_driver_inst/data_req_n3 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.b[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_59 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_69.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_63 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_70.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[10] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1580.mi[0]
+
+
+Endpoint: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9
+359 0.620000 1831 3
+Timing path: video_driver_inst/lt2_syn_55.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9
+video_driver_inst/lt2_syn_55.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9
+361 0.620000 11.962000 11.342000 6 10
+video_driver_inst/cnt_h[1] video_driver_inst/lt3_syn_58.a[0]
+video_driver_inst/lt3_syn_10 video_driver_inst/lt3_syn_61.fci
+video_driver_inst/lt3_syn_14 video_driver_inst/lt3_syn_64.fci
+video_driver_inst/lt3_syn_18 video_driver_inst/lt3_syn_67.fci
+video_driver_inst/lt3_syn_22 video_driver_inst/lt3_syn_70.fci
+video_driver_inst/lt3_syn_26 video_driver_inst/lt3_syn_72.fci
+video_driver_inst/data_req_n3 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.b[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[2] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9.addrb[4]
+
+Timing path: video_driver_inst/lt2_syn_55.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9
+video_driver_inst/lt2_syn_55.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9
+413 0.711000 11.962000 11.251000 7 11
+video_driver_inst/cnt_h[1] video_driver_inst/lt3_syn_58.a[0]
+video_driver_inst/lt3_syn_10 video_driver_inst/lt3_syn_61.fci
+video_driver_inst/lt3_syn_14 video_driver_inst/lt3_syn_64.fci
+video_driver_inst/lt3_syn_18 video_driver_inst/lt3_syn_67.fci
+video_driver_inst/lt3_syn_22 video_driver_inst/lt3_syn_70.fci
+video_driver_inst/lt3_syn_26 video_driver_inst/lt3_syn_72.fci
+video_driver_inst/data_req_n3 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.b[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_59 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_69.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[4] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9.addrb[6]
+
+Timing path: video_driver_inst/lt2_syn_55.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9
+video_driver_inst/lt2_syn_55.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9
+467 0.763000 11.962000 11.199000 7 11
+video_driver_inst/cnt_h[1] video_driver_inst/lt3_syn_58.a[0]
+video_driver_inst/lt3_syn_10 video_driver_inst/lt3_syn_61.fci
+video_driver_inst/lt3_syn_14 video_driver_inst/lt3_syn_64.fci
+video_driver_inst/lt3_syn_18 video_driver_inst/lt3_syn_67.fci
+video_driver_inst/lt3_syn_22 video_driver_inst/lt3_syn_70.fci
+video_driver_inst/lt3_syn_26 video_driver_inst/lt3_syn_72.fci
+video_driver_inst/data_req_n3 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/reg0_syn_72.b[1]
+video_driver_inst/data_req_n sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg2_syn_54.b[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/rd_en_s sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_68.e[0]
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_59 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/add2_syn_69.fci
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/addrb[6] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_9.addrb[8]
+
+
+
+Hold check
+521 3
+Endpoint: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6
+523 0.088000 11 3
+Timing path: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg5_syn_53.clk->Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg5_syn_53.clk
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6
+525 0.088000 2.183000 2.271000 1 1
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/ram_rd_addr_d0[10] Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6.addra[12]
+
+Timing path: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg5_syn_51.clk->Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg5_syn_51.clk
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6
+559 0.203000 2.183000 2.386000 1 1
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/ram_rd_addr_d0[9] Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6.addra[11]
+
+Timing path: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg5_syn_62.clk->Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg5_syn_62.clk
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6
+593 0.247000 2.183000 2.430000 1 1
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/ram_rd_addr_d0[2] Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_6.addra[4]
+
+
+Endpoint: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6
+627 0.089000 11 3
+Timing path: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg6_syn_57.clk->Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg6_syn_57.clk
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6
+629 0.089000 2.183000 2.272000 1 1
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/addra[4] Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6.addra[6]
+
+Timing path: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/add0_syn_68.clk->Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/add0_syn_68.clk
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6
+663 0.124000 2.183000 2.307000 1 1
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/addra[8] Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6.addra[10]
+
+Timing path: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg4_syn_15.clk->Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/reg4_syn_15.clk
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6
+697 0.186000 2.183000 2.369000 1 1
+Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/addra[3] Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_6.addra[5]
+
+
+Endpoint: PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1
+731 0.124000 4 3
+Timing path: PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/reg7_syn_47.clk->PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/reg7_syn_47.clk
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1
+733 0.124000 2.183000 2.307000 1 1
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dia[1] PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1.dia[1]
+
+Timing path: PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/reg7_syn_44.clk->PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/reg7_syn_44.clk
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1
+767 0.240000 2.183000 2.423000 1 1
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dia[2] PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1.dia[2]
+
+Timing path: PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/reg7_syn_44.clk->PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/reg7_syn_44.clk
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1
+801 0.241000 2.183000 2.424000 1 1
+PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dia[3] PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst_syn_1.dia[3]
+
+
+
+Recovery check
+835 3
+Endpoint: video_driver_inst/TFT_begin_n_syn_28
+837 4.217000 1 1
+Timing path: AHBlite_SD_Interface/SD_top_inst/sd_init_inst/init_end_reg_syn_5.clk->video_driver_inst/TFT_begin_n_syn_28
+AHBlite_SD_Interface/SD_top_inst/sd_init_inst/init_end_reg_syn_5.clk
+video_driver_inst/TFT_begin_n_syn_28
+839 4.217000 11.745000 7.528000 1 2
+AHBlite_SD_Interface/SD_top_inst/sd_init_inst/init_end RAMDATA_Interface/reg1_syn_167.c[0]
+video_driver_inst/sys_rst_n video_driver_inst/TFT_begin_n_syn_28.sr
+
+
+Endpoint: PINTO_inst/vip_matrix_generate_5x5_8bit/reg18_syn_50
+875 7.021000 1 1
+Timing path: sdram_rw_top_inst/u_sdram_top/u_sdram_controller/u_sdram_ctrl/cnt_clk_b[8]_syn_125.clk->PINTO_inst/vip_matrix_generate_5x5_8bit/reg18_syn_50
+sdram_rw_top_inst/u_sdram_top/u_sdram_controller/u_sdram_ctrl/cnt_clk_b[8]_syn_125.clk
+PINTO_inst/vip_matrix_generate_5x5_8bit/reg18_syn_50
+877 7.021000 11.745000 4.724000 0 1
+cpuresetn_dup_38 PINTO_inst/vip_matrix_generate_5x5_8bit/reg18_syn_50.sr
+
+
+Endpoint: PINTO_inst/vip_matrix_generate_5x5_8bit/reg14_syn_44
+911 7.021000 1 1
+Timing path: sdram_rw_top_inst/u_sdram_top/u_sdram_controller/u_sdram_ctrl/cnt_clk_b[8]_syn_125.clk->PINTO_inst/vip_matrix_generate_5x5_8bit/reg14_syn_44
+sdram_rw_top_inst/u_sdram_top/u_sdram_controller/u_sdram_ctrl/cnt_clk_b[8]_syn_125.clk
+PINTO_inst/vip_matrix_generate_5x5_8bit/reg14_syn_44
+913 7.021000 11.745000 4.724000 0 1
+cpuresetn_dup_38 PINTO_inst/vip_matrix_generate_5x5_8bit/reg14_syn_44.sr
+
+
+
+Removal check
+947 3
+Endpoint: PINTO_inst/data_min1_b[0]_syn_9
+949 0.074000 1 1
+Timing path: cpuresetn_reg_syn_191.clk->PINTO_inst/data_min1_b[0]_syn_9
+cpuresetn_reg_syn_191.clk
+PINTO_inst/data_min1_b[0]_syn_9
+951 0.074000 2.383000 2.457000 0 1
+cpuresetn_dup_33 PINTO_inst/data_min1_b[0]_syn_9.sr
+
+
+Endpoint: med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/reg0_syn_43
+985 0.090000 1 1
+Timing path: med_filter_proc__red_inst/data_max1_b[6]_syn_10.clk->med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/reg0_syn_43
+med_filter_proc__red_inst/data_max1_b[6]_syn_10.clk
+med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/reg0_syn_43
+987 0.090000 2.383000 2.473000 0 1
+cpuresetn_dup_50 med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/reg0_syn_43.sr
+
+
+Endpoint: med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/reg0_syn_51
+1021 0.090000 1 1
+Timing path: med_filter_proc__red_inst/data_max1_b[6]_syn_10.clk->med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/reg0_syn_51
+med_filter_proc__red_inst/data_max1_b[6]_syn_10.clk
+med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/reg0_syn_51
+1023 0.090000 2.383000 2.473000 0 1
+cpuresetn_dup_50 med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/reg0_syn_51.sr
+
+
+
+
+clock: sclk5
+1057 234 128 2
+Setup check
+1067 3
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+1067 0.355000 2 2
+Timing path: u_logic/Vzeiu6_n_syn_5.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+u_logic/Vzeiu6_n_syn_5.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+1069 0.355000 4.230000 3.875000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/sclk_dat_lat_2d u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53.b[1]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_56.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_56.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+1103 0.580000 4.230000 3.650000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/tx_pdat[5] u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53.c[1]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+1137 0.355000 2 2
+Timing path: u_logic/Vzeiu6_n_syn_5.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+u_logic/Vzeiu6_n_syn_5.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+1139 0.355000 4.230000 3.875000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/sclk_dat_lat_2d u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53.b[0]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_50.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_50.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53
+1173 0.757000 4.230000 3.473000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/tx_pdat[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_53.c[0]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_64
+1207 0.463000 2 2
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_62.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_64
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_62.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_64
+1209 0.463000 4.273000 3.810000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/tx_pdat[7] u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_64.b[0]
+
+Timing path: u_logic/Vzeiu6_n_syn_5.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_64
+u_logic/Vzeiu6_n_syn_5.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_64
+1243 0.771000 4.273000 3.502000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/sclk_dat_lat_2d u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_64.c[0]
+
+
+
+Hold check
+1277 3
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_58
+1279 0.081000 1 1
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_58
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_58
+1281 0.081000 2.484000 2.565000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/q_out_d[0] u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_58.d[1]
+
+
+Endpoint: video_1936x1088_to_1920x1080_inst/lt4_syn_43
+1315 0.173000 1 1
+Timing path: video_1936x1088_to_1920x1080_inst/lt5_syn_43.clk->video_1936x1088_to_1920x1080_inst/lt4_syn_43
+video_1936x1088_to_1920x1080_inst/lt5_syn_43.clk
+video_1936x1088_to_1920x1080_inst/lt4_syn_43
+1317 0.173000 2.291000 2.464000 0 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d[8] video_1936x1088_to_1920x1080_inst/lt4_syn_43.mi[1]
+
+
+Endpoint: u_logic/Glphu6_syn_3802
+1351 0.173000 1 1
+Timing path: u_logic/Glphu6_syn_3436.clk->u_logic/Glphu6_syn_3802
+u_logic/Glphu6_syn_3436.clk
+u_logic/Glphu6_syn_3802
+1353 0.173000 2.291000 2.464000 0 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/pclk_vld u_logic/Glphu6_syn_3802.mi[0]
+
+
+
+
+clock: clk
+1387 2000000000 6558 4
+Setup check
+1397 3
+Endpoint: u_logic/B0spw6_reg_syn_5
+1397 3.849000 2578953 3
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/B0spw6_reg_syn_5
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/B0spw6_reg_syn_5
+1399 3.849000 42.230000 38.381000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3378.d[1]
+u_logic/Glphu6_syn_1246 u_logic/Glphu6_syn_4134.a[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/G54bx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1407 u_logic/Glphu6_syn_3182.b[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/B0spw6_reg_syn_5.mi[0]
+
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/B0spw6_reg_syn_5
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/B0spw6_reg_syn_5
+1499 3.870000 42.230000 38.360000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3378.d[1]
+u_logic/Glphu6_syn_1246 u_logic/Glphu6_syn_4134.a[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/Glphu6_syn_3226.d[1]
+u_logic/Glphu6_syn_1405 u_logic/Glphu6_syn_3182.a[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/B0spw6_reg_syn_5.mi[0]
+
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/B0spw6_reg_syn_5
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/B0spw6_reg_syn_5
+1599 3.894000 42.230000 38.336000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3885.d[1]
+u_logic/Glphu6_syn_1248 u_logic/Glphu6_syn_4134.b[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/G54bx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1407 u_logic/Glphu6_syn_3182.b[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/B0spw6_reg_syn_5.mi[0]
+
+
+Endpoint: u_logic/Glphu6_syn_3284
+1699 3.849000 2578953 3
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/Glphu6_syn_3284
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/Glphu6_syn_3284
+1701 3.849000 42.230000 38.381000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3378.d[1]
+u_logic/Glphu6_syn_1246 u_logic/Glphu6_syn_4134.a[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/G54bx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1407 u_logic/Glphu6_syn_3182.b[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/Glphu6_syn_3284.mi[0]
+
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/Glphu6_syn_3284
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/Glphu6_syn_3284
+1801 3.870000 42.230000 38.360000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3378.d[1]
+u_logic/Glphu6_syn_1246 u_logic/Glphu6_syn_4134.a[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/Glphu6_syn_3226.d[1]
+u_logic/Glphu6_syn_1405 u_logic/Glphu6_syn_3182.a[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/Glphu6_syn_3284.mi[0]
+
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/Glphu6_syn_3284
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/Glphu6_syn_3284
+1901 3.894000 42.230000 38.336000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3885.d[1]
+u_logic/Glphu6_syn_1248 u_logic/Glphu6_syn_4134.b[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/G54bx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1407 u_logic/Glphu6_syn_3182.b[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/Glphu6_syn_3284.mi[0]
+
+
+Endpoint: u_logic/Jnoax6_reg_syn_5
+2001 3.862000 2578953 3
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/Jnoax6_reg_syn_5
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/Jnoax6_reg_syn_5
+2003 3.862000 42.230000 38.368000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3378.d[1]
+u_logic/Glphu6_syn_1246 u_logic/Glphu6_syn_4134.a[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/G54bx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1407 u_logic/Glphu6_syn_3182.b[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/Jnoax6_reg_syn_5.mi[1]
+
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/Jnoax6_reg_syn_5
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/Jnoax6_reg_syn_5
+2103 3.883000 42.230000 38.347000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3378.d[1]
+u_logic/Glphu6_syn_1246 u_logic/Glphu6_syn_4134.a[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/Glphu6_syn_3226.d[1]
+u_logic/Glphu6_syn_1405 u_logic/Glphu6_syn_3182.a[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/Jnoax6_reg_syn_5.mi[1]
+
+Timing path: u_logic/Lfgbx6_reg_syn_5.clk->u_logic/Jnoax6_reg_syn_5
+u_logic/Lfgbx6_reg_syn_5.clk
+u_logic/Jnoax6_reg_syn_5
+2203 3.907000 42.230000 38.323000 33 34
+u_logic/Mfyax6 u_logic/Lfgbx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1200 u_logic/C14bx6_reg_syn_5.a[0]
+u_logic/Glphu6_syn_1202 u_logic/Glphu6_syn_4043.d[1]
+u_logic/Glphu6_syn_1204 u_logic/Glphu6_syn_3380.a[1]
+u_logic/Glphu6_syn_1209 u_logic/Glphu6_syn_4109.a[0]
+u_logic/Glphu6_syn_1211 u_logic/Glphu6_syn_3554.a[1]
+u_logic/M6fow6 u_logic/Glphu6_syn_4217.d[1]
+u_logic/Glphu6_syn_1236 u_logic/Glphu6_syn_3616.b[0]
+u_logic/Glphu6_syn_1242 u_logic/Glphu6_syn_3548.a[0]
+u_logic/Glphu6_syn_1244 u_logic/Glphu6_syn_3885.d[1]
+u_logic/Glphu6_syn_1248 u_logic/Glphu6_syn_4134.b[1]
+u_logic/Glphu6_syn_1253 u_logic/Glphu6_syn_3376.a[1]
+u_logic/Glphu6_syn_1255 u_logic/Glphu6_syn_4180.d[1]
+u_logic/Glphu6_syn_1257 u_logic/Glphu6_syn_3953.a[1]
+u_logic/Glphu6_syn_1380 u_logic/Glphu6_syn_4066.a[1]
+u_logic/Glphu6_syn_1382 u_logic/L8zax6_reg_syn_5.d[0]
+u_logic/Zirow6 u_logic/Glphu6_syn_4152.b[0]
+u_logic/Glphu6_syn_1389 u_logic/Glphu6_syn_3192.a[0]
+u_logic/Glphu6_syn_1391 u_logic/Glphu6_syn_4171.d[1]
+u_logic/Glphu6_syn_1393 u_logic/Glphu6_syn_3236.a[1]
+u_logic/Glphu6_syn_1401 u_logic/Glphu6_syn_4081.a[1]
+u_logic/Glphu6_syn_1403 u_logic/G54bx6_reg_syn_5.a[1]
+u_logic/Glphu6_syn_1407 u_logic/Glphu6_syn_3182.b[1]
+u_logic/Glphu6_syn_1409 u_logic/Nephu6_syn_49.a[0]
+u_logic/Puohu6 u_logic/Glphu6_syn_3196.d[1]
+u_logic/Glphu6_syn_1439 u_logic/Glphu6_syn_3230.a[1]
+u_logic/Glphu6_syn_1480 u_logic/Glphu6_syn_3390.d[1]
+u_logic/Glphu6_syn_1501 u_logic/Glphu6_syn_3849.a[1]
+u_logic/Glphu6_syn_1505 u_logic/Glphu6_syn_3974.a[1]
+u_logic/Glphu6_syn_1519 u_logic/Pzkpw6_reg_syn_667.a[1]
+u_logic/Pzkpw6_reg_syn_206 u_logic/Doohu6_syn_329.a[0]
+u_logic/Vjohu6_syn_3 u_logic/Vjohu6_syn_26.d[1]
+u_logic/Vjohu6_syn_5 u_logic/C3zpw6_reg_syn_5.d[0]
+u_logic/Jgkiu6 u_logic/Jnoax6_reg_syn_5.mi[1]
+
+
+
+Hold check
+2303 3
+Endpoint: UART1_TX/FIFO/ramread0_syn_120
+2305 0.192000 94 3
+Timing path: UART1_TX/FIFO/reg1_syn_73.clk->UART1_TX/FIFO/ramread0_syn_120
+UART1_TX/FIFO/reg1_syn_73.clk
+UART1_TX/FIFO/ramread0_syn_120
+2307 0.192000 2.171000 2.363000 1 1
+UART1_TX/FIFO/wp[3] UART1_TX/FIFO/ramread0_syn_120.d[0]
+
+Timing path: PINTO_Interface/wr_en_reg_reg_syn_5.clk->UART1_TX/FIFO/ramread0_syn_120
+PINTO_Interface/wr_en_reg_reg_syn_5.clk
+UART1_TX/FIFO/ramread0_syn_120
+2341 1.494000 2.171000 3.665000 2 2
+UART_Interface/wr_en_reg UART1_TX/data[3]_syn_5.c[0]
+UART1_TX/data[7] UART1_TX/FIFO/ramread0_syn_120.d[1]
+
+Timing path: u_logic/Gephu6_syn_52.clk->UART1_TX/FIFO/ramread0_syn_120
+u_logic/Gephu6_syn_52.clk
+UART1_TX/FIFO/ramread0_syn_120
+2377 4.029000 2.171000 6.200000 3 3
+u_logic/Wvgax6 u_logic/Nv9bx6_reg_syn_5.c[0]
+u_logic/HWDATA[7] UART1_TX/data[3]_syn_5.d[0]
+UART1_TX/data[7] UART1_TX/FIFO/ramread0_syn_120.d[1]
+
+
+Endpoint: UART1_TX/FIFO/ramread0_syn_78
+2415 0.199000 180 3
+Timing path: UART1_TX/FIFO/reg1_syn_70.clk->UART1_TX/FIFO/ramread0_syn_78
+UART1_TX/FIFO/reg1_syn_70.clk
+UART1_TX/FIFO/ramread0_syn_78
+2417 0.199000 2.187000 2.386000 1 1
+UART1_TX/FIFO/wp[2] UART1_TX/FIFO/ramread0_syn_78.c[0]
+
+Timing path: PINTO_Interface/wr_en_reg_reg_syn_5.clk->UART1_TX/FIFO/ramread0_syn_78
+PINTO_Interface/wr_en_reg_reg_syn_5.clk
+UART1_TX/FIFO/ramread0_syn_78
+2451 1.675000 2.187000 3.862000 2 2
+UART_Interface/wr_en_reg UART1_TX/data[1]_syn_5.c[0]
+UART1_TX/data[2] UART1_TX/FIFO/ramread0_syn_78.c[1]
+
+Timing path: u_logic/Gephu6_syn_52.clk->UART1_TX/FIFO/ramread0_syn_78
+u_logic/Gephu6_syn_52.clk
+UART1_TX/FIFO/ramread0_syn_78
+2487 4.669000 2.187000 6.856000 3 3
+u_logic/Wvgax6 LED_Interface/reg0_syn_46.c[0]
+Interconncet/HWDATA[2] UART1_TX/data[1]_syn_5.d[0]
+UART1_TX/data[2] UART1_TX/FIFO/ramread0_syn_78.c[1]
+
+
+Endpoint: UART1_TX/FIFO/ramread0_syn_78
+2525 0.207000 155 3
+Timing path: UART1_TX/FIFO/reg1_syn_67.clk->UART1_TX/FIFO/ramread0_syn_78
+UART1_TX/FIFO/reg1_syn_67.clk
+UART1_TX/FIFO/ramread0_syn_78
+2527 0.207000 2.187000 2.394000 1 1
+UART1_TX/FIFO/wp[1] UART1_TX/FIFO/ramread0_syn_78.b[0]
+
+Timing path: PINTO_Interface/wr_en_reg_reg_syn_5.clk->UART1_TX/FIFO/ramread0_syn_78
+PINTO_Interface/wr_en_reg_reg_syn_5.clk
+UART1_TX/FIFO/ramread0_syn_78
+2561 1.493000 2.187000 3.680000 2 2
+UART_Interface/wr_en_reg UART1_TX/data[1]_syn_5.c[1]
+UART1_TX/data[1] UART1_TX/FIFO/ramread0_syn_78.b[1]
+
+Timing path: u_logic/Gephu6_syn_52.clk->UART1_TX/FIFO/ramread0_syn_78
+u_logic/Gephu6_syn_52.clk
+UART1_TX/FIFO/ramread0_syn_78
+2597 4.395000 2.187000 6.582000 3 3
+u_logic/Wvgax6 u_logic/W2vhu6_syn_281.d[0]
+Interconncet/HWDATA[1] UART1_TX/data[1]_syn_5.d[1]
+UART1_TX/data[1] UART1_TX/FIFO/ramread0_syn_78.b[1]
+
+
+
+Recovery check
+2635 3
+Endpoint: AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1538
+2637 36.029000 2 2
+Timing path: u_logic/Doohu6_syn_237.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1538
+u_logic/Doohu6_syn_237.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1538
+2639 36.029000 42.046000 6.017000 1 2
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_setting[25] PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/reg0_syn_44.c[0]
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_b10[25] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1538.sr
+
+Timing path: u_logic/Bfjpw6_reg_syn_2353.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1538
+u_logic/Bfjpw6_reg_syn_2353.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1538
+2675 36.415000 42.046000 5.631000 1 2
+cpuresetn_dup_65 PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/reg0_syn_44.d[0]
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_b10[25] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1538.sr
+
+
+Endpoint: AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1569
+2711 36.275000 2 2
+Timing path: AHBlite_SD_Interface/reg0_syn_191.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1569
+AHBlite_SD_Interface/reg0_syn_191.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1569
+2713 36.275000 41.974000 5.699000 1 2
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_setting[13] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/ram_inst/reg2_syn_163.c[0]
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_b10[13] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1569.sr
+
+Timing path: u_logic/Koohu6_syn_159.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1569
+u_logic/Koohu6_syn_159.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1569
+2749 36.480000 41.974000 5.494000 1 2
+cpuresetn_dup_60 sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/ram_inst/reg2_syn_163.d[0]
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_b10[13] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1569.sr
+
+
+Endpoint: AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1546
+2785 36.347000 2 2
+Timing path: u_logic/Glphu6_syn_3160.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1546
+u_logic/Glphu6_syn_3160.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1546
+2787 36.347000 41.974000 5.627000 1 2
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_setting[22] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1635.c[1]
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_b10[22] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1546.sr
+
+Timing path: AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1578.clk->AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1546
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1578.clk
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1546
+2823 37.046000 41.974000 4.928000 1 2
+cpuresetn_dup_61 AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1635.d[1]
+AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/rd_addr_b10[22] AHBlite_SD_Interface/SD_top_inst/sd_rd_ctrl_inst/reg0_syn_1546.sr
+
+
+
+Removal check
+2859 3
+Endpoint: u_logic/L6phu6_syn_132
+2861 0.146000 1 1
+Timing path: u_logic/Gephu6_syn_54.clk->u_logic/L6phu6_syn_132
+u_logic/Gephu6_syn_54.clk
+u_logic/L6phu6_syn_132
+2863 0.146000 2.311000 2.457000 0 1
+cpuresetn_dup_79 u_logic/L6phu6_syn_132.sr
+
+
+Endpoint: u_logic/Glphu6_syn_3384
+2897 0.154000 1 1
+Timing path: UART1_RX/reg1_syn_101.clk->u_logic/Glphu6_syn_3384
+UART1_RX/reg1_syn_101.clk
+u_logic/Glphu6_syn_3384
+2899 0.154000 2.311000 2.465000 0 1
+cpuresetn_dup_43 u_logic/Glphu6_syn_3384.sr
+
+
+Endpoint: AHBlite_SD_Interface/SD_top_inst/sd_read_inst/state_b[1]_syn_19
+2933 0.162000 1 1
+Timing path: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/sdram_wr_addr_b[19]_syn_16.clk->AHBlite_SD_Interface/SD_top_inst/sd_read_inst/state_b[1]_syn_19
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/sdram_wr_addr_b[19]_syn_16.clk
+AHBlite_SD_Interface/SD_top_inst/sd_read_inst/state_b[1]_syn_19
+2935 0.162000 2.311000 2.473000 0 1
+cpuresetn_dup_36 AHBlite_SD_Interface/SD_top_inst/sd_read_inst/state_b[1]_syn_19.sr
+
+
+
+
+Path delay: 5ns max
+2969 38 38 1
+Max path
+2979 3
+Endpoint: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg3_syn_47
+2979 3.815000 1 1
+Timing path: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg0_syn_51.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg3_syn_47
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg0_syn_51.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg3_syn_47
+2981 3.815000 7.294000 3.479000 0 1
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/primary_addr_gray_reg[2] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg3_syn_47.mi[1]
+
+
+Endpoint: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg3_syn_47
+3009 3.962000 1 1
+Timing path: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg0_syn_54.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg3_syn_47
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg0_syn_54.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg3_syn_47
+3011 3.962000 7.294000 3.332000 0 1
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/primary_addr_gray_reg[3] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg3_syn_47.mi[0]
+
+
+Endpoint: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/rd_to_wr_cross_inst/reg0_syn_57
+3039 4.082000 1 1
+Timing path: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg0_syn_51.clk->sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/rd_to_wr_cross_inst/reg0_syn_57
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/reg0_syn_51.clk
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/rd_to_wr_cross_inst/reg0_syn_57
+3041 4.082000 7.294000 3.212000 0 1
+sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/wr_to_rd_cross_inst/primary_addr_gray_reg[1] sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/rd_to_wr_cross_inst/reg0_syn_57.mi[0]
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  clk (25.0MHz)                                 36.151ns      27.662MHz        0.326ns      1463        0.000ns
+	  pclk (100.0MHz)                                9.781ns     102.239MHz        0.138ns      1170        0.000ns
+	  sclk5 (500.0MHz)                               1.645ns     607.903MHz        0.326ns        39        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 8 clock net(s): 
+	Gamma_Interface/en_state_syn_4
+	PIXEL_PLL_inst/clk0_out
+	PLL_inst/clk0_out
+	SD_CLK_dup_1
+	SEG_Interface/smg_inst/cnt_1ms[0]_syn_6
+	SWCLK_syn_4
+	sdram_rw_top_inst/clk_sdram
+	sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/clk_ref
+
+	Exceptions:
+
+		Check Type:	MIN
+		----------------------------------------------------------------------------------------------------
+		       Path Num     Constraint                                                                      
+		             38     set_false_path -hold -from [ get_regs {*/primary_addr_gray_reg[*]} ] -to [ get_regs {*/sync_r1[*]} ]
+

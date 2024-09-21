@@ -1,0 +1,1476 @@
+============================================================
+   Tang Dynasty, V5.6.59063
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/Anlogic/TD5.6.59063/bin/td.exe
+   Built at =   12:45:13 Sep  6 2022
+   Run by =     Daggal
+   Run Date =   Thu May  9 17:28:06 2024
+
+   Run on =     DESKTOP-I7CAGU2
+============================================================
+RUN-1002 : start command "open_project CortexM0_SoC.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/PLL.v(82)
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_LED.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Matrix_Key.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Timer.v
+HDL-1007 : analyze verilog file ../../../rtl/Block_RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/CortexM0_SoC.v
+HDL-1007 : analyze verilog file ../../../rtl/Keyboard.v
+HDL-1007 : analyze verilog file ../../../rtl/cortexm0ds_logic.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_SEG.v
+HDL-1007 : analyze verilog file ../../../rtl/smg.v
+RUN-1001 : Project manager successfully analyzed 14 source files.
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "elaborate -top CortexM0_SoC"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-5007 WARNING: port 'CODENSEQ' remains unconnected for this instance in ../../../rtl/CortexM0_SoC.v(112)
+HDL-1007 : elaborate module CortexM0_SoC in ../../../rtl/CortexM0_SoC.v(2)
+HDL-1007 : elaborate module PLL in ../../al_ip/PLL.v(23)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(8)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=40,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",CLKC0_CPHASE=9,CLKC1_CPHASE=39,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(929)
+HDL-1007 : elaborate module Keyboard in ../../../rtl/Keyboard.v(1)
+HDL-1007 : elaborate module cortexm0ds_logic in ../../../rtl/cortexm0ds_logic.v(27)
+HDL-1007 : elaborate module AHBlite_Interconnect in ../../../rtl/AHBlite_Interconnect.v(1)
+HDL-1007 : elaborate module AHBlite_Decoder in ../../../rtl/AHBlite_Decoder.v(1)
+HDL-1007 : elaborate module AHBlite_SlaveMUX in ../../../rtl/AHBlite_SlaveMUX.v(1)
+HDL-1007 : elaborate module AHBlite_Block_RAM in ../../../rtl/AHBlite_Block_RAM.v(1)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../../../rtl/CortexM0_SoC.v(743)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_WRADDR' in ../../../rtl/CortexM0_SoC.v(744)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_RDADDR' in ../../../rtl/CortexM0_SoC.v(745)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../../../rtl/CortexM0_SoC.v(776)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_WRADDR' in ../../../rtl/CortexM0_SoC.v(777)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_RDADDR' in ../../../rtl/CortexM0_SoC.v(778)
+HDL-1007 : elaborate module AHBlite_LED in ../../../rtl/AHBlite_LED.v(1)
+HDL-1007 : elaborate module AHBlite_Timer in ../../../rtl/AHBlite_Timer.v(1)
+HDL-1007 : elaborate module AHBlite_Matrix_Key in ../../../rtl/AHBlite_Matrix_Key.v(1)
+HDL-1007 : elaborate module AHBlite_SEG in ../../../rtl/AHBlite_SEG.v(1)
+HDL-1007 : elaborate module smg in ../../../rtl/smg.v(1)
+HDL-5007 WARNING: edge of vector 'cnt_1ms' is only sensitive to the least significant bit in ../../../rtl/smg.v(24)
+HDL-1007 : elaborate module Block_RAM in ../../../rtl/Block_RAM.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/Block_RAM.v(12)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addra' in ../../../rtl/CortexM0_SoC.v(897)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addrb' in ../../../rtl/CortexM0_SoC.v(898)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addra' in ../../../rtl/CortexM0_SoC.v(906)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addrb' in ../../../rtl/CortexM0_SoC.v(907)
+HDL-5007 WARNING: net 'HREADYOUT_P6' does not have a driver in ../../../rtl/CortexM0_SoC.v(273)
+HDL-5007 WARNING: net 'HRDATA_P6[31]' does not have a driver in ../../../rtl/CortexM0_SoC.v(274)
+HDL-5007 WARNING: net 'HRESP_P6' does not have a driver in ../../../rtl/CortexM0_SoC.v(275)
+HDL-5007 WARNING: net 'HREADYOUT_P7' does not have a driver in ../../../rtl/CortexM0_SoC.v(287)
+HDL-5007 WARNING: net 'HRDATA_P7[31]' does not have a driver in ../../../rtl/CortexM0_SoC.v(288)
+HDL-5007 WARNING: net 'HRESP_P7' does not have a driver in ../../../rtl/CortexM0_SoC.v(289)
+HDL-5007 Similar messages will be suppressed.
+HDL-5007 Similar messages will be suppressed.
+HDL-1200 : Current top model is CortexM0_SoC
+HDL-1100 : Inferred 1 RAMs.
+RUN-1003 : finish command "elaborate -top CortexM0_SoC" in  1.438675s wall, 1.375000s user + 0.062500s system = 1.437500s CPU (99.9%)
+
+RUN-1004 : used memory is 183 MB, reserved memory is 156 MB, peak memory is 324 MB
+RUN-1002 : start command "export_db CortexM0_SoC_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "read_adc ../../M0.adc"
+RUN-1002 : start command "set_pin_assignment  Col[0]   LOCATION = E11; "
+RUN-1002 : start command "set_pin_assignment  Col[1]   LOCATION = D11; "
+RUN-1002 : start command "set_pin_assignment  Col[2]   LOCATION = C11; "
+RUN-1002 : start command "set_pin_assignment  Col[3]   LOCATION = F10; "
+RUN-1002 : start command "set_pin_assignment  LED[0]   LOCATION = B14; "
+RUN-1002 : start command "set_pin_assignment  LED[1]   LOCATION = B15; "
+RUN-1002 : start command "set_pin_assignment  LED[2]   LOCATION = B16; "
+RUN-1002 : start command "set_pin_assignment  LED[3]   LOCATION = C15; "
+RUN-1002 : start command "set_pin_assignment  LED[4]   LOCATION = C16; "
+RUN-1002 : start command "set_pin_assignment  LED[5]   LOCATION = E13; "
+RUN-1002 : start command "set_pin_assignment  LED[6]   LOCATION = E16; "
+RUN-1002 : start command "set_pin_assignment  LED[7]   LOCATION = F16; "
+RUN-1002 : start command "set_pin_assignment  RSTn   LOCATION = J4; "
+RUN-1002 : start command "set_pin_assignment  Row[0]   LOCATION = E10; "
+RUN-1002 : start command "set_pin_assignment  Row[1]   LOCATION = C10; "
+RUN-1002 : start command "set_pin_assignment  Row[2]   LOCATION = F9; "
+RUN-1002 : start command "set_pin_assignment  Row[3]   LOCATION = D9; "
+RUN-1002 : start command "set_pin_assignment  SWCLK   LOCATION = P2; "
+RUN-1002 : start command "set_pin_assignment  SWDIO   LOCATION = R2; "
+RUN-1002 : start command "set_pin_assignment  System_clk   LOCATION = R7; "
+RUN-1002 : start command "set_pin_assignment  key[0]   LOCATION = A9; "
+RUN-1002 : start command "set_pin_assignment  key[1]   LOCATION = A10; "
+RUN-1002 : start command "set_pin_assignment  key[2]   LOCATION = B10; "
+RUN-1002 : start command "set_pin_assignment  key[3]   LOCATION = A11; "
+RUN-1002 : start command "set_pin_assignment  key[4]   LOCATION = A12; "
+RUN-1002 : start command "set_pin_assignment  key[5]   LOCATION = B12; "
+RUN-1002 : start command "set_pin_assignment  key[6]   LOCATION = A13; "
+RUN-1002 : start command "set_pin_assignment  key[7]   LOCATION = A14; "
+RUN-1002 : start command "set_pin_assignment  seg_led[0]   LOCATION = A4; "
+RUN-1002 : start command "set_pin_assignment  seg_led[1]   LOCATION = A6; "
+RUN-1002 : start command "set_pin_assignment  seg_led[2]   LOCATION = B8; "
+RUN-1002 : start command "set_pin_assignment  seg_led[3]   LOCATION = E8; "
+RUN-1002 : start command "set_pin_assignment  seg_led[4]   LOCATION = A7; "
+RUN-1002 : start command "set_pin_assignment  seg_led[5]   LOCATION = B5; "
+RUN-1002 : start command "set_pin_assignment  seg_led[6]   LOCATION = A8; "
+RUN-1002 : start command "set_pin_assignment  seg_led[7]   LOCATION = C8; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[0]   LOCATION = C9; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[1]   LOCATION = B6; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[2]   LOCATION = A5; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[3]   LOCATION = A3; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "CortexM0_SoC"
+SYN-1012 : SanityCheck: Model "AHBlite_Interconnect"
+SYN-1012 : SanityCheck: Model "AHBlite_Decoder"
+SYN-1012 : SanityCheck: Model "AHBlite_SlaveMUX"
+SYN-1012 : SanityCheck: Model "AHBlite_LED"
+SYN-1012 : SanityCheck: Model "AHBlite_Matrix_Key"
+SYN-1012 : SanityCheck: Model "PLL"
+SYN-1012 : SanityCheck: Model "AHBlite_Block_RAM"
+SYN-1012 : SanityCheck: Model "Block_RAM"
+SYN-1012 : SanityCheck: Model "AHBlite_SEG"
+SYN-1012 : SanityCheck: Model "smg"
+SYN-1012 : SanityCheck: Model "AHBlite_Timer"
+SYN-1012 : SanityCheck: Model "Keyboard"
+SYN-1012 : SanityCheck: Model "cortexm0ds_logic"
+SYN-1043 : Mark PLL as IO macro for instance bufg_feedback
+SYN-1011 : Flatten model CortexM0_SoC
+SYN-1032 : 26051/1531 useful/useless nets, 23913/1456 useful/useless insts
+SYN-1001 : Bypass 1 mux instances
+SYN-1016 : Merged 308 instances.
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_15)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_20)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_25)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_30)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_15)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_20)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_25)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_30)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 0 Logic DRAMs, 8 Logic BRAMs.
+SYN-1032 : 23512/753 useful/useless nets, 21365/544 useful/useless insts
+SYN-1016 : Merged 37 instances.
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[31]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[30]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[29]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[28]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[27]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[26]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[25]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[24]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[23]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[22]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[21]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[20]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[19]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[18]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[17]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[16]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[15]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[14]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[13]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[12]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[11]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[10]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[9]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[8]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[7]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[6]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[5]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[4]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[3]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[2]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[1]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P10[0]" in ../../../rtl/AHBlite_Interconnect.v(182)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[31]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[30]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[29]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[28]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[27]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[26]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[25]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[24]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[23]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[22]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[21]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[20]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[19]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[18]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[17]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[16]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[15]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[14]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[13]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[12]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[11]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[10]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[9]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[8]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[7]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[6]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[5]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[4]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[3]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[2]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[1]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P11[0]" in ../../../rtl/AHBlite_Interconnect.v(197)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[31]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[30]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[29]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[28]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[27]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[26]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[25]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[24]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[23]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[22]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[21]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[20]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[19]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[18]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[17]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[16]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[15]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[14]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[13]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[12]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[11]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[10]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[9]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[8]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[7]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[6]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[5]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[4]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[3]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[2]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[1]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P12[0]" in ../../../rtl/AHBlite_Interconnect.v(212)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[31]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[30]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[29]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[28]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[27]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[26]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[25]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[24]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[23]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[22]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[21]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[20]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[19]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[18]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[17]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[16]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[15]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[14]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[13]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[12]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[11]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[10]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[9]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[8]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[7]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[6]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[5]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[4]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[3]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[2]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[1]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[0]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[31]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[30]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[29]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[28]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[27]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[26]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[25]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[24]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[23]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[22]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[21]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[20]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[19]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[18]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[17]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[16]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[15]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[14]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[13]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[12]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[11]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[10]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[9]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[8]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[7]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[6]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[5]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[4]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[3]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[2]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[1]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[0]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[31]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[30]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[29]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[28]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[27]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[26]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[25]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[24]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[23]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[22]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[21]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[20]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[19]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[18]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[17]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[16]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[15]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[14]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[13]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[12]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[11]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[10]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[9]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[8]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[7]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[6]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[5]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[4]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[3]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[2]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[1]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[0]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[31]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[30]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[29]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[28]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[27]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[26]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[25]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[24]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[23]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[22]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[21]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[20]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[19]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[18]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[17]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[16]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[15]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[14]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[13]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[12]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[11]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[10]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[9]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[8]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[7]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[6]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[5]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[4]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[3]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[2]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[1]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[0]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[31]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[30]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[29]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[28]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[27]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[26]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[25]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[24]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[23]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[22]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[21]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[20]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[19]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[18]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[17]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[16]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[15]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[14]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[13]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[12]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[11]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[10]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[9]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[8]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[7]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[6]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[5]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[4]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[3]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[2]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[1]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[0]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[31]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[30]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[29]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[28]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[27]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[26]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[25]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[24]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[23]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[22]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[21]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[20]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[19]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[18]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[17]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[16]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[15]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[14]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[13]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[12]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[11]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[10]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[9]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[8]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[7]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[6]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[5]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[4]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[3]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[2]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[1]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P6[0]" in ../../../rtl/AHBlite_Interconnect.v(122)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[31]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[30]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[29]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[28]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[27]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[26]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[25]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[24]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[23]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[22]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[21]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[20]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[19]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[18]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[17]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[16]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[15]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[14]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[13]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[12]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[11]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[10]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[9]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[8]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[7]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[6]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[5]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[4]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[3]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[2]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[1]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P7[0]" in ../../../rtl/AHBlite_Interconnect.v(137)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[31]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[30]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[29]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[28]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[27]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[26]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[25]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[24]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[23]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[22]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[21]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[20]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[19]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[18]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[17]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[16]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[15]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[14]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[13]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[12]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[11]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[10]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[9]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[8]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[7]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[6]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[5]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[4]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[3]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[2]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[1]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P8[0]" in ../../../rtl/AHBlite_Interconnect.v(152)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[31]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[30]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[29]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[28]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[27]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[26]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[25]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[24]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[23]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[22]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[21]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[20]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[19]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[18]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[17]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[16]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[15]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[14]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[13]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[12]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[11]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[10]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[9]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[8]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[7]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[6]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[5]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[4]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[3]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[2]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[1]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P9[0]" in ../../../rtl/AHBlite_Interconnect.v(167)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P10" in ../../../rtl/AHBlite_Interconnect.v(181)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P11" in ../../../rtl/AHBlite_Interconnect.v(196)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P12" in ../../../rtl/AHBlite_Interconnect.v(211)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P13" in ../../../rtl/AHBlite_Interconnect.v(226)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P14" in ../../../rtl/AHBlite_Interconnect.v(241)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P15" in ../../../rtl/AHBlite_Interconnect.v(256)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P16" in ../../../rtl/AHBlite_Interconnect.v(271)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P17" in ../../../rtl/AHBlite_Interconnect.v(286)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P6" in ../../../rtl/AHBlite_Interconnect.v(121)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P7" in ../../../rtl/AHBlite_Interconnect.v(136)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P8" in ../../../rtl/AHBlite_Interconnect.v(151)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P9" in ../../../rtl/AHBlite_Interconnect.v(166)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P10" in ../../../rtl/AHBlite_Interconnect.v(183)
+SYN-5014 WARNING: the net's pin: pin "i11" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P11" in ../../../rtl/AHBlite_Interconnect.v(198)
+SYN-5014 WARNING: the net's pin: pin "i12" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P12" in ../../../rtl/AHBlite_Interconnect.v(213)
+SYN-5014 WARNING: the net's pin: pin "i13" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P13" in ../../../rtl/AHBlite_Interconnect.v(228)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P14" in ../../../rtl/AHBlite_Interconnect.v(243)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P15" in ../../../rtl/AHBlite_Interconnect.v(258)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P16" in ../../../rtl/AHBlite_Interconnect.v(273)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P17" in ../../../rtl/AHBlite_Interconnect.v(288)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P6" in ../../../rtl/AHBlite_Interconnect.v(123)
+SYN-5014 WARNING: the net's pin: pin "i7" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P7" in ../../../rtl/AHBlite_Interconnect.v(138)
+SYN-5014 WARNING: the net's pin: pin "i8" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P8" in ../../../rtl/AHBlite_Interconnect.v(153)
+SYN-5014 WARNING: the net's pin: pin "i9" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P9" in ../../../rtl/AHBlite_Interconnect.v(168)
+SYN-5014 WARNING: the net's pin: pin "i10" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1032 : 22936/0 useful/useless nets, 22410/39 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 65 inv instances.
+SYN-1032 : 22871/65 useful/useless nets, 22345/0 useful/useless insts
+SYN-1019 : Optimized 2 mux instances.
+SYN-1021 : Optimized 10 onehot mux instances.
+SYN-1020 : Optimized 56 distributor mux.
+SYN-1019 : Optimized 40 mux instances.
+SYN-1016 : Merged 858 instances.
+SYN-1015 : Optimize round 1, 4358 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 5 inv instances.
+SYN-1032 : 21856/76 useful/useless nets, 21330/126 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     u_logic/A3ipw6_reg
+SYN-1019 : Optimized 33 mux instances.
+SYN-1020 : Optimized 32 distributor mux.
+SYN-1016 : Merged 63 instances.
+SYN-1015 : Optimize round 2, 488 better
+SYN-1032 : 21791/33 useful/useless nets, 21265/32 useful/useless insts
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-3008 : Optimized 1 const1 DFF(s)
+SYN-3008 : Optimized 1 const1 DFF(s)
+SYN-1032 : 21758/33 useful/useless nets, 21232/30 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 2 inv instances.
+SYN-1032 : 21742/2 useful/useless nets, 21216/1 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-1015 : Optimize round 1, 17 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+RUN-1003 : finish command "optimize_rtl" in  6.179486s wall, 5.781250s user + 0.406250s system = 6.187500s CPU (100.1%)
+
+RUN-1004 : used memory is 199 MB, reserved memory is 170 MB, peak memory is 324 MB
+RUN-1002 : start command "report_area -file CortexM0_SoC_rtl.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        40
+  #input                   15
+  #output                  24
+  #inout                    1
+
+Gate Statistics
+#Basic gates            20617
+  #and                   9726
+  #nand                     0
+  #or                    2079
+  #nor                      0
+  #xor                     72
+  #xnor                     0
+  #buf                      0
+  #not                   6509
+  #bufif1                   1
+  #MX21                   541
+  #FADD                     0
+  #DFF                   1689
+  #LATCH                    0
+#MACRO_ADD                 20
+#MACRO_EQ                  70
+#MACRO_MULT                 1
+#MACRO_MUX                495
+#MACRO_OTHERS               9
+
+Report Hierarchy Area:
++---------------------------------------------------------------------+
+|Instance               |Module               |gates  |seq    |macros |
++---------------------------------------------------------------------+
+|top                    |CortexM0_SoC         |18928  |1689   |100    |
+|  Interconncet         |AHBlite_Interconnect |235    |18     |36     |
+|    Decoder            |AHBlite_Decoder      |0      |0      |18     |
+|    SlaveMUX           |AHBlite_SlaveMUX     |235    |18     |18     |
+|  LED_Interface        |AHBlite_LED          |100    |62     |9      |
+|  Matrix_Key_Interface |AHBlite_Matrix_Key   |4      |5      |0      |
+|  PLL_inst             |PLL                  |0      |0      |1      |
+|  RAMCODE_Interface    |AHBlite_Block_RAM    |18     |17     |0      |
+|  RAMDATA_Interface    |AHBlite_Block_RAM    |5      |17     |0      |
+|  RAM_CODE             |Block_RAM            |0      |0      |4      |
+|  RAM_DATA             |Block_RAM            |0      |0      |4      |
+|  SEG_Interface        |AHBlite_SEG          |14     |35     |3      |
+|    smg_inst           |smg                  |10     |18     |3      |
+|  Timer_Interface      |AHBlite_Timer        |45     |68     |5      |
+|  kb                   |Keyboard             |0      |160    |24     |
+|  u_logic              |cortexm0ds_logic     |18505  |1305   |14     |
++---------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db CortexM0_SoC_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "read_sdc ../../sysclk_adc.sdc"
+USR-1009 : NO module with IP_SDC ...
+RUN-1002 : start command "get_nets  clk "
+RUN-1002 : start command "create_clock -name clk -period 40 -waveform 0 20 "
+RUN-1102 : create_clock: clock name: clk, type: 0, period: 40000, rise: 0, fall: 20000.
+RUN-1002 : start command "get_ports  System_clk "
+RUN-1002 : start command "create_clock -name System_clk -period 20 -waveform 0 10 "
+RUN-1102 : create_clock: clock name: System_clk, type: 0, period: 20000, rise: 0, fall: 10000.
+RUN-1104 : Import SDC file ../../sysclk_adc.sdc finished, there are 1 nets kept by constraints.
+RUN-1002 : start command "optimize_gate -maparea CortexM0_SoC_gate.area"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |    off     |       off        |        
+RUN-1001 :        map_sim_model        |    off     |       off        |        
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-2001 : Map 40 IOs to PADs
+SYN-1032 : 21783/0 useful/useless nets, 21256/1 useful/useless insts
+RUN-1002 : start command "update_pll_param -module CortexM0_SoC"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 1 BUFG to GCLK
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_15 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_20 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_25 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_30 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_15 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_20 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_25 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_30 is set to PDPW/SP from DP for resource saving
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_32"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_34"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_36"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_38"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_32"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_34"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_36"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_38"
+SYN-2571 : Map 1 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 21891/68 useful/useless nets, 21277/1 useful/useless insts
+SYN-1016 : Merged 15 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 84 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1001 : Throwback 114 control mux instances
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 465 instances.
+SYN-2501 : Optimize round 1, 1498 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 21 macro adder
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 7 ROM instances
+SYN-1016 : Merged 21 instances.
+SYN-1032 : 23532/3 useful/useless nets, 22986/0 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model CortexM0_SoC.
+TMR-2506 : Build timing graph completely. Port num: 10, tpin num: 65488, tnet num: 23532, tinst num: 22985, tnode num: 69861, tedge num: 85303.
+TMR-2508 : Levelizing timing graph completed, there are 273 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 23532 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 2 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 5408 (3.71), #lev = 33 (10.17)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 5408 (3.71), #lev = 33 (10.17)
+SYN-3001 : Logic optimization runtime opt =   1.41 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 20775 instances into 5409 LUTs, name keeping = 40%.
+RUN-1002 : start command "report_area -file CortexM0_SoC_gate.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        40
+  #input                   15
+  #output                  24
+  #inout                    1
+
+LUT Statistics
+#Total_luts              5873
+  #lut4                  4466
+  #lut5                   950
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             457
+
+Utilization Statistics
+#lut                     5873   out of  19600   29.96%
+#reg                     1689   out of  19600    8.62%
+#le                         0
+#dsp                        3   out of     29   10.34%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#pad                       40   out of    188   21.28%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------+
+|Instance               |Module               |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------+
+|top                    |CortexM0_SoC         |5416    |457     |1689    |8       |3       |
+|  Interconncet         |AHBlite_Interconnect |18      |0       |18      |0       |0       |
+|    Decoder            |AHBlite_Decoder      |16      |0       |0       |0       |0       |
+|    SlaveMUX           |AHBlite_SlaveMUX     |0       |0       |18      |0       |0       |
+|  LED_Interface        |AHBlite_LED          |73      |33      |62      |0       |0       |
+|  Matrix_Key_Interface |AHBlite_Matrix_Key   |9       |0       |5       |0       |0       |
+|  PLL_inst             |PLL                  |0       |0       |0       |0       |0       |
+|  RAMCODE_Interface    |AHBlite_Block_RAM    |8       |0       |17      |0       |0       |
+|  RAMDATA_Interface    |AHBlite_Block_RAM    |36      |0       |17      |0       |0       |
+|  RAM_CODE             |Block_RAM            |4       |0       |0       |4       |0       |
+|  RAM_DATA             |Block_RAM            |4       |0       |0       |4       |0       |
+|  SEG_Interface        |AHBlite_SEG          |35      |17      |35      |0       |0       |
+|    smg_inst           |smg                  |29      |17      |18      |0       |0       |
+|  Timer_Interface      |AHBlite_Timer        |41      |66      |68      |0       |0       |
+|  kb                   |Keyboard             |208     |168     |160     |0       |0       |
+|  u_logic              |cortexm0ds_logic     |4957    |173     |1305    |0       |3       |
++------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "CortexM0_SoC" ...
+SYN-4010 : Pack lib has 58 rtl pack models with 25 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 1689 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 8 carry chain into lslice
+SYN-4007 : Packing 215 adder to BLE ...
+SYN-4008 : Packed 215 adder and 9 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -maparea CortexM0_SoC_gate.area" in  12.138042s wall, 12.031250s user + 0.109375s system = 12.140625s CPU (100.0%)
+
+RUN-1004 : used memory is 239 MB, reserved memory is 225 MB, peak memory is 366 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model CortexM0_SoC
+RUN-1002 : start command "export_db CortexM0_SoC_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20240509_172806.log"

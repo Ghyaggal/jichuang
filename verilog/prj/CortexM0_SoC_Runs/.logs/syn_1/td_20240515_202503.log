@@ -1,0 +1,1701 @@
+============================================================
+   Tang Dynasty, V5.6.59063
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/Anlogic/TD5.6.59063/bin/td.exe
+   Built at =   12:45:13 Sep  6 2022
+   Run by =     Daggal
+   Run Date =   Wed May 15 20:25:03 2024
+
+   Run on =     DESKTOP-I7CAGU2
+============================================================
+RUN-1002 : start command "open_project CortexM0_SoC.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/PLL.v(89)
+HDL-1007 : analyze verilog file ../../al_ip/SDRAM_PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/SDRAM_PLL.v(72)
+HDL-1007 : analyze verilog file ../../al_ip/PIXEL_PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/PIXEL_PLL.v(79)
+HDL-1007 : analyze verilog file ../../al_ip/SDRAM_WRITE_FIFO.v
+HDL-1007 : analyze verilog file ../../al_ip/SDRAM_READ_FIFO.v
+HDL-1007 : analyze verilog file ../../al_ip/SDRAM.v
+HDL-1007 : analyze verilog file ../../al_ip/RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_LED.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Matrix_Key.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Timer.v
+HDL-1007 : analyze verilog file ../../../rtl/Block_RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/CortexM0_SoC.v
+HDL-1007 : undeclared symbol 'rst_n', assumed default net type 'wire' in ../../../rtl/CortexM0_SoC.v(1360)
+HDL-1007 : analyze verilog file ../../../rtl/Keyboard.v
+HDL-1007 : analyze verilog file ../../../rtl/cortexm0ds_logic.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_SEG.v
+HDL-1007 : analyze verilog file ../../../rtl/smg.v
+HDL-1007 : analyze VHDL file ../../../rtl/HDMI/DVITransmitter.enc.vhd
+HDL-1007 : analyze entity dvitransmitter in ../../../rtl/HDMI/DVITransmitter.enc.vhd(13)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : analyze architecture ** in encrypted_text(0)
+HDL-1007 : analyze VHDL file ../../../rtl/HDMI/SerializerN_1_lvds.enc.vhd
+HDL-1007 : analyze entity ** in encrypted_text(0)
+HDL-1007 : analyze architecture ** in encrypted_text(0)
+HDL-1007 : analyze VHDL file ../../../rtl/HDMI/SerializerN_1_lvds_dat.enc.vhd
+HDL-1007 : analyze entity ** in encrypted_text(0)
+HDL-1007 : analyze architecture ** in encrypted_text(0)
+HDL-1007 : analyze VHDL file ../../../rtl/HDMI/TMDSEncoder.enc.vhd
+HDL-1007 : analyze entity ** in encrypted_text(0)
+HDL-1007 : analyze architecture ** in encrypted_text(0)
+HDL-1007 : analyze VHDL file ../../../rtl/HDMI/hdmi_tx.vhd
+HDL-1007 : analyze entity hdmi_tx in ../../../rtl/HDMI/hdmi_tx.vhd(11)
+HDL-1007 : analyze architecture behavioral in ../../../rtl/HDMI/hdmi_tx.vhd(33)
+HDL-1007 : analyze verilog file ../../../rtl/HDMI/video_driver.v
+HDL-1007 : analyze verilog file ../../../rtl/SD/SD_top.v
+HDL-1007 : analyze verilog file ../../../rtl/SD/sd_init.v
+HDL-1007 : analyze verilog file ../../../rtl/SD/sd_rd_ctrl.v
+HDL-1007 : analyze verilog file ../../../rtl/SD/sd_read.v
+HDL-1007 : analyze verilog file ../../../rtl/DDR/sdram_cmd.v
+HDL-1007 : analyze included file ../../../rtl/DDR/sdram_para.v in ../../../rtl/DDR/sdram_cmd.v(45)
+HDL-1007 : back to file '../../../rtl/DDR/sdram_cmd.v' in ../../../rtl/DDR/sdram_cmd.v(45)
+HDL-1007 : analyze verilog file ../../../rtl/DDR/sdram_controller.v
+HDL-1007 : analyze verilog file ../../../rtl/DDR/sdram_ctrl.v
+HDL-1007 : analyze included file ../../../rtl/DDR/sdram_para.v in ../../../rtl/DDR/sdram_ctrl.v(19)
+HDL-1007 : back to file '../../../rtl/DDR/sdram_ctrl.v' in ../../../rtl/DDR/sdram_ctrl.v(19)
+HDL-1007 : analyze verilog file ../../../rtl/DDR/sdram_data.v
+HDL-1007 : analyze included file ../../../rtl/DDR/sdram_para.v in ../../../rtl/DDR/sdram_data.v(13)
+HDL-1007 : back to file '../../../rtl/DDR/sdram_data.v' in ../../../rtl/DDR/sdram_data.v(13)
+HDL-1007 : analyze verilog file ../../../rtl/DDR/sdram_fifo_ctrl.v
+HDL-1007 : analyze verilog file ../../../rtl/DDR/sdram_rw_top.v
+HDL-1007 : analyze verilog file ../../../rtl/DDR/sdram_top.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_SD.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Bayer2RGB.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Gamma.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_HistEQ.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_PINTO.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_UART.v
+HDL-1007 : analyze verilog file ../../../rtl/ISP/Bayer2RGB.v
+HDL-1007 : analyze verilog file ../../../rtl/ISP/PINTO.v
+HDL-1007 : analyze verilog file ../../../rtl/ISP/line_shift.v
+HDL-1007 : analyze verilog file ../../../rtl/ISP/line_shift_5x5.v
+HDL-1007 : analyze verilog file ../../../rtl/ISP/med_filter_proc.v
+HDL-1007 : analyze verilog file ../../../rtl/ISP/vip_matrix_generate_3x3_8bit.v
+HDL-1007 : analyze verilog file ../../../rtl/ISP/vip_matrix_generate_5x5_8bit.v
+HDL-1007 : analyze verilog file ../../../rtl/UART/UART_RX.v
+HDL-1007 : analyze verilog file ../../../rtl/UART/UART_TX.v
+HDL-1007 : analyze verilog file ../../../rtl/UART/clkuart_pwm.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_MedFilter.v
+HDL-1007 : analyze verilog file ../../../rtl/UART/FIFO.v
+RUN-1001 : Project manager successfully analyzed 56 source files.
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "elaborate -top CortexM0_SoC"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-5007 WARNING: port 'CODENSEQ' remains unconnected for this instance in ../../../rtl/CortexM0_SoC.v(158)
+HDL-1007 : elaborate module CortexM0_SoC in ../../../rtl/CortexM0_SoC.v(1)
+HDL-1007 : elaborate module PLL in ../../al_ip/PLL.v(24)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(8)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=40,CLKC2_DIV=40,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",CLKC0_CPHASE=9,CLKC1_CPHASE=39,CLKC2_CPHASE=9,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(929)
+HDL-1007 : elaborate module SDRAM_PLL in ../../al_ip/SDRAM_PLL.v(23)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=10,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC1_FPHASE=4,CLKC0_CPHASE=9,CLKC1_CPHASE=6,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(929)
+HDL-1007 : elaborate module PIXEL_PLL in ../../al_ip/PIXEL_PLL.v(24)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=20,CLKC2_DIV=4,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC1_CPHASE=19,CLKC2_CPHASE=3,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(929)
+HDL-1007 : elaborate module Keyboard in ../../../rtl/Keyboard.v(1)
+HDL-1007 : elaborate module cortexm0ds_logic in ../../../rtl/cortexm0ds_logic.v(27)
+HDL-1007 : elaborate module AHBlite_Interconnect in ../../../rtl/AHBlite_Interconnect.v(1)
+HDL-1007 : elaborate module AHBlite_Decoder in ../../../rtl/AHBlite_Decoder.v(1)
+HDL-1007 : elaborate module AHBlite_SlaveMUX in ../../../rtl/AHBlite_SlaveMUX.v(1)
+HDL-1007 : elaborate module AHBlite_Block_RAM in ../../../rtl/AHBlite_Block_RAM.v(1)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../../../rtl/CortexM0_SoC.v(789)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_WRADDR' in ../../../rtl/CortexM0_SoC.v(790)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_RDADDR' in ../../../rtl/CortexM0_SoC.v(791)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../../../rtl/CortexM0_SoC.v(822)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_WRADDR' in ../../../rtl/CortexM0_SoC.v(823)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_RDADDR' in ../../../rtl/CortexM0_SoC.v(824)
+HDL-1007 : elaborate module AHBlite_LED in ../../../rtl/AHBlite_LED.v(1)
+HDL-1007 : elaborate module AHBlite_Timer in ../../../rtl/AHBlite_Timer.v(1)
+HDL-1007 : elaborate module AHBlite_Matrix_Key in ../../../rtl/AHBlite_Matrix_Key.v(1)
+HDL-1007 : elaborate module AHBlite_SEG in ../../../rtl/AHBlite_SEG.v(1)
+HDL-1007 : elaborate module smg in ../../../rtl/smg.v(1)
+HDL-5007 WARNING: edge of vector 'cnt_1ms' is only sensitive to the least significant bit in ../../../rtl/smg.v(24)
+HDL-1007 : elaborate module AHBlite_SD in ../../../rtl/AHBlite_SD.v(1)
+HDL-1007 : elaborate module SD_top in ../../../rtl/SD/SD_top.v(1)
+HDL-1007 : elaborate module sd_init in ../../../rtl/SD/sd_init.v(1)
+HDL-1007 : elaborate module sd_read in ../../../rtl/SD/sd_read.v(1)
+HDL-1007 : elaborate module sd_rd_ctrl in ../../../rtl/SD/sd_rd_ctrl.v(1)
+HDL-1007 : elaborate module AHBlite_UART in ../../../rtl/AHBlite_UART.v(1)
+HDL-1007 : elaborate module AHBlite_PINTO in ../../../rtl/AHBlite_PINTO.v(1)
+HDL-1007 : elaborate module AHBlite_Bayer2RGB in ../../../rtl/AHBlite_Bayer2RGB.v(1)
+HDL-1007 : elaborate module AHBlite_MedFilter in ../../../rtl/AHBlite_MedFilter.v(1)
+HDL-1007 : elaborate module AHBlite_HistEQ in ../../../rtl/AHBlite_HistEQ.v(1)
+HDL-1007 : elaborate module AHBlite_Gamma in ../../../rtl/AHBlite_Gamma.v(1)
+HDL-1007 : elaborate module Block_RAM in ../../../rtl/Block_RAM.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/Block_RAM.v(12)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addra' in ../../../rtl/CortexM0_SoC.v(1120)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addrb' in ../../../rtl/CortexM0_SoC.v(1121)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addra' in ../../../rtl/CortexM0_SoC.v(1129)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addrb' in ../../../rtl/CortexM0_SoC.v(1130)
+HDL-1007 : elaborate module sdram_rw_top in ../../../rtl/DDR/sdram_rw_top.v(1)
+HDL-1007 : elaborate module sdram_top in ../../../rtl/DDR/sdram_top.v(1)
+HDL-5007 WARNING: port 'valid' remains unconnected for this instance in ../../../rtl/DDR/sdram_fifo_ctrl.v(220)
+HDL-5007 WARNING: port 'valid' remains unconnected for this instance in ../../../rtl/DDR/sdram_fifo_ctrl.v(236)
+HDL-1007 : elaborate module sdram_fifo_ctrl in ../../../rtl/DDR/sdram_fifo_ctrl.v(1)
+HDL-5007 WARNING: port 'doa' remains unconnected for this instance in ../../al_ip/SDRAM_WRITE_FIFO.v(260)
+HDL-1007 : elaborate module SDRAM_WRITE_FIFO in ../../al_ip/SDRAM_WRITE_FIFO.v(25)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO(ADDR_WIDTH=11) in ../../al_ip/SDRAM_WRITE_FIFO.v(289)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO in ../../al_ip/SDRAM_WRITE_FIFO.v(289)
+HDL-1007 : elaborate module ram_infer_SDRAM_WRITE_FIFO(DATAWIDTH_A=8,ADDRWIDTH_A=11,DATAWIDTH_B=32,REGMODE_B="OUTREG",ADDRWIDTH_B=9) in ../../al_ip/SDRAM_WRITE_FIFO.v(377)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../al_ip/SDRAM_WRITE_FIFO.v(442)
+HDL-5007 WARNING: input port 'dib[31]' is not connected on this instance in ../../al_ip/SDRAM_WRITE_FIFO.v(265)
+HDL-5007 WARNING: port 'doa' remains unconnected for this instance in ../../al_ip/SDRAM_READ_FIFO.v(260)
+HDL-1007 : elaborate module SDRAM_READ_FIFO in ../../al_ip/SDRAM_READ_FIFO.v(25)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO in ../../al_ip/SDRAM_READ_FIFO.v(289)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO(ADDR_WIDTH=11) in ../../al_ip/SDRAM_READ_FIFO.v(289)
+HDL-1007 : elaborate module ram_infer_SDRAM_READ_FIFO(ADDRWIDTH_A=9,DATAWIDTH_B=8,REGMODE_B="OUTREG",ADDRWIDTH_B=11) in ../../al_ip/SDRAM_READ_FIFO.v(377)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../al_ip/SDRAM_READ_FIFO.v(442)
+HDL-5007 WARNING: input port 'dib[7]' is not connected on this instance in ../../al_ip/SDRAM_READ_FIFO.v(265)
+HDL-1007 : elaborate module sdram_controller in ../../../rtl/DDR/sdram_controller.v(1)
+HDL-1007 : elaborate module sdram_ctrl in ../../../rtl/DDR/sdram_ctrl.v(1)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 9 for port 'sdram_rd_burst' in ../../../rtl/DDR/sdram_controller.v(52)
+HDL-1007 : elaborate module sdram_cmd in ../../../rtl/DDR/sdram_cmd.v(22)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 9 for port 'sdram_rd_burst' in ../../../rtl/DDR/sdram_controller.v(69)
+HDL-1007 : elaborate module sdram_data in ../../../rtl/DDR/sdram_data.v(1)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'sdram_rd_burst' in ../../../rtl/DDR/sdram_top.v(104)
+HDL-1007 : elaborate module SDRAM in ../../al_ip/SDRAM.v(14)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(720)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 9 for port 'wr_len' in ../../../rtl/CortexM0_SoC.v(1155)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 9 for port 'rd_len' in ../../../rtl/CortexM0_SoC.v(1160)
+HDL-1007 : elaborate module video_driver in ../../../rtl/HDMI/video_driver.v(1)
+HDL-1007 : elaborate module clkuart_pwm in ../../../rtl/UART/clkuart_pwm.v(2)
+HDL-1007 : elaborate module UART_RX in ../../../rtl/UART/UART_RX.v(1)
+HDL-1007 : elaborate module UART_TX in ../../../rtl/UART/UART_TX.v(1)
+HDL-1007 : elaborate module FIFO in ../../../rtl/UART/FIFO.v(3)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/UART/FIFO.v(17)
+HDL-1007 : elaborate module PINTO in ../../../rtl/ISP/PINTO.v(1)
+HDL-1007 : elaborate module vip_matrix_generate_5x5_8bit in ../../../rtl/ISP/vip_matrix_generate_5x5_8bit.v(1)
+HDL-5007 WARNING: port 'doa' remains unconnected for this instance in ../../../rtl/ISP/line_shift_5x5.v(58)
+HDL-5007 WARNING: port 'dib' is not connected on this instance in ../../../rtl/ISP/line_shift_5x5.v(58)
+HDL-5007 WARNING: port 'doa' remains unconnected for this instance in ../../../rtl/ISP/line_shift_5x5.v(74)
+HDL-5007 WARNING: port 'dib' is not connected on this instance in ../../../rtl/ISP/line_shift_5x5.v(74)
+HDL-5007 WARNING: port 'doa' remains unconnected for this instance in ../../../rtl/ISP/line_shift_5x5.v(90)
+HDL-5007 WARNING: port 'dib' is not connected on this instance in ../../../rtl/ISP/line_shift_5x5.v(90)
+HDL-5007 WARNING: port 'doa' remains unconnected for this instance in ../../../rtl/ISP/line_shift_5x5.v(106)
+HDL-5007 WARNING: port 'dib' is not connected on this instance in ../../../rtl/ISP/line_shift_5x5.v(106)
+HDL-1007 : elaborate module line_shift_5x5 in ../../../rtl/ISP/line_shift_5x5.v(1)
+HDL-1007 : elaborate module DRAM in ../../al_ip/RAM.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048) in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(1031)
+HDL-5007 WARNING: input port 'dib[7]' remains unconnected for this instance in ../../../rtl/ISP/line_shift_5x5.v(58)
+HDL-5007 WARNING: input port 'dib[7]' remains unconnected for this instance in ../../../rtl/ISP/line_shift_5x5.v(74)
+HDL-5007 WARNING: input port 'dib[7]' remains unconnected for this instance in ../../../rtl/ISP/line_shift_5x5.v(90)
+HDL-5007 WARNING: input port 'dib[7]' remains unconnected for this instance in ../../../rtl/ISP/line_shift_5x5.v(106)
+HDL-1007 : elaborate module Bayer2RGB in ../../../rtl/ISP/Bayer2RGB.v(1)
+HDL-1007 : elaborate module vip_matrix_generate_3x3_8bit in ../../../rtl/ISP/vip_matrix_generate_3x3_8bit.v(1)
+HDL-5007 WARNING: port 'doa' remains unconnected for this instance in ../../../rtl/ISP/line_shift.v(47)
+HDL-5007 WARNING: port 'doa' remains unconnected for this instance in ../../../rtl/ISP/line_shift.v(64)
+HDL-1007 : elaborate module line_shift in ../../../rtl/ISP/line_shift.v(1)
+HDL-5007 WARNING: input port 'dib[7]' remains unconnected for this instance in ../../../rtl/ISP/line_shift.v(47)
+HDL-5007 WARNING: input port 'dib[7]' remains unconnected for this instance in ../../../rtl/ISP/line_shift.v(64)
+HDL-1007 : elaborate module med_filter_proc in ../../../rtl/ISP/med_filter_proc.v(1)
+HDL-1007 : switch to vhdl to elaborate module hdmi_tx in ../../../rtl/CortexM0_SoC.v(1353)
+HDL-1007 : elaborate hdmi_tx(1,3)(Behavioral) in ../../../rtl/HDMI/hdmi_tx.vhd(11)
+HDL-1007 : elaborate DVITransmitter(1,3)(Behavioral) in ../../../rtl/HDMI/DVITransmitter.enc.vhd(13)
+HDL-1007 : elaborate **(**) in encrypted_text(0)
+HDL-1007 : elaborate **(**) in encrypted_text(0)
+HDL-1007 : elaborate EG_LOGIC_ODDR(1,6)(rtl) in D:/Anlogic/TD5.6.59063/arch/eagle_macro.vhd(1344)
+HDL-1007 : elaborate **(**) in encrypted_text(0)
+HDL-1007 : back to vlog to elaborate in ../../../rtl/CortexM0_SoC.v(1353)
+HDL-5007 WARNING: net 'HREADYOUT_P13' does not have a driver in ../../../rtl/CortexM0_SoC.v(417)
+HDL-5007 WARNING: net 'HRDATA_P13[31]' does not have a driver in ../../../rtl/CortexM0_SoC.v(418)
+HDL-5007 WARNING: net 'HRESP_P13' does not have a driver in ../../../rtl/CortexM0_SoC.v(419)
+HDL-5007 WARNING: net 'HREADYOUT_P14' does not have a driver in ../../../rtl/CortexM0_SoC.v(431)
+HDL-5007 WARNING: net 'HRDATA_P14[31]' does not have a driver in ../../../rtl/CortexM0_SoC.v(432)
+HDL-5007 WARNING: net 'HRESP_P14' does not have a driver in ../../../rtl/CortexM0_SoC.v(433)
+HDL-5007 WARNING: net 'HREADYOUT_P15' does not have a driver in ../../../rtl/CortexM0_SoC.v(445)
+HDL-5007 WARNING: net 'HRDATA_P15[31]' does not have a driver in ../../../rtl/CortexM0_SoC.v(446)
+HDL-5007 WARNING: net 'HRESP_P15' does not have a driver in ../../../rtl/CortexM0_SoC.v(447)
+HDL-5007 WARNING: net 'HREADYOUT_P16' does not have a driver in ../../../rtl/CortexM0_SoC.v(459)
+HDL-5007 Similar messages will be suppressed.
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is CortexM0_SoC
+HDL-5105 WARNING: Improper initial value, net "cnt_t[4]" initial value we do not reserve in encrypted_text(0) 
+HDL-5105 WARNING: Improper initial value, net "cnt_t[3]" initial value we do not reserve in encrypted_text(0) 
+HDL-5105 WARNING: Improper initial value, net "cnt_t[2]" initial value we do not reserve in encrypted_text(0) 
+HDL-5105 WARNING: Improper initial value, net "cnt_t[1]" initial value we do not reserve in encrypted_text(0) 
+HDL-5105 WARNING: Improper initial value, net "cnt_t[0]" initial value we do not reserve in encrypted_text(0) 
+HDL-5105 WARNING: Improper initial value, net "dc_bias[4]" initial value we do not reserve in D:/Anlogic/TD5.6.59063/arch/../packages/std_logic_arith.vhd(1071) 
+HDL-5105 WARNING: Improper initial value, net "dc_bias[3]" initial value we do not reserve in D:/Anlogic/TD5.6.59063/arch/../packages/std_logic_arith.vhd(1071) 
+HDL-5105 WARNING: Improper initial value, net "dc_bias[2]" initial value we do not reserve in D:/Anlogic/TD5.6.59063/arch/../packages/std_logic_arith.vhd(1071) 
+HDL-5105 WARNING: Improper initial value, net "dc_bias[1]" initial value we do not reserve in D:/Anlogic/TD5.6.59063/arch/../packages/std_logic_arith.vhd(1071) 
+HDL-5105 WARNING: Improper initial value, net "dc_bias[0]" initial value we do not reserve in D:/Anlogic/TD5.6.59063/arch/../packages/std_logic_arith.vhd(1071) 
+HDL-1100 : Inferred 4 RAMs.
+RUN-1003 : finish command "elaborate -top CortexM0_SoC" in  1.878496s wall, 1.796875s user + 0.062500s system = 1.859375s CPU (99.0%)
+
+RUN-1004 : used memory is 216 MB, reserved memory is 189 MB, peak memory is 391 MB
+RUN-1002 : start command "export_db CortexM0_SoC_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "read_adc ../../M0.adc"
+RUN-1002 : start command "set_pin_assignment  Col[0]   LOCATION = E11; "
+RUN-1002 : start command "set_pin_assignment  Col[1]   LOCATION = D11; "
+RUN-1002 : start command "set_pin_assignment  Col[2]   LOCATION = C11; "
+RUN-1002 : start command "set_pin_assignment  Col[3]   LOCATION = F10; "
+RUN-1002 : start command "set_pin_assignment  LED[0]   LOCATION = B14; "
+RUN-1002 : start command "set_pin_assignment  LED[1]   LOCATION = B15; "
+RUN-1002 : start command "set_pin_assignment  LED[2]   LOCATION = B16; "
+RUN-1002 : start command "set_pin_assignment  LED[3]   LOCATION = C15; "
+RUN-1002 : start command "set_pin_assignment  LED[4]   LOCATION = C16; "
+RUN-1002 : start command "set_pin_assignment  LED[5]   LOCATION = E13; "
+RUN-1002 : start command "set_pin_assignment  LED[6]   LOCATION = E16; "
+RUN-1002 : start command "set_pin_assignment  LED[7]   LOCATION = F16; "
+RUN-1002 : start command "set_pin_assignment  RSTn   LOCATION = P15; "
+RUN-1002 : start command "set_pin_assignment  Row[0]   LOCATION = E10; "
+RUN-1002 : start command "set_pin_assignment  Row[1]   LOCATION = C10; "
+RUN-1002 : start command "set_pin_assignment  Row[2]   LOCATION = F9; "
+RUN-1002 : start command "set_pin_assignment  Row[3]   LOCATION = D9; "
+RUN-1002 : start command "set_pin_assignment  SWCLK   LOCATION = P2; "
+RUN-1002 : start command "set_pin_assignment  SWDIO   LOCATION = R2; "
+RUN-1002 : start command "set_pin_assignment  System_clk   LOCATION = R7; "
+RUN-1002 : start command "set_pin_assignment  key[0]   LOCATION = A9; "
+RUN-1002 : start command "set_pin_assignment  key[1]   LOCATION = A10; "
+RUN-1002 : start command "set_pin_assignment  key[2]   LOCATION = B10; "
+RUN-1002 : start command "set_pin_assignment  key[3]   LOCATION = A11; "
+RUN-1002 : start command "set_pin_assignment  key[4]   LOCATION = A12; "
+RUN-1002 : start command "set_pin_assignment  key[5]   LOCATION = B12; "
+RUN-1002 : start command "set_pin_assignment  key[6]   LOCATION = A13; "
+RUN-1002 : start command "set_pin_assignment  key[7]   LOCATION = A14; "
+RUN-1002 : start command "set_pin_assignment  seg_led[0]   LOCATION = A4; "
+RUN-1002 : start command "set_pin_assignment  seg_led[1]   LOCATION = A6; "
+RUN-1002 : start command "set_pin_assignment  seg_led[2]   LOCATION = B8; "
+RUN-1002 : start command "set_pin_assignment  seg_led[3]   LOCATION = E8; "
+RUN-1002 : start command "set_pin_assignment  seg_led[4]   LOCATION = A7; "
+RUN-1002 : start command "set_pin_assignment  seg_led[5]   LOCATION = B5; "
+RUN-1002 : start command "set_pin_assignment  seg_led[6]   LOCATION = A8; "
+RUN-1002 : start command "set_pin_assignment  seg_led[7]   LOCATION = C8; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[0]   LOCATION = C9; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[1]   LOCATION = B6; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[2]   LOCATION = A5; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[3]   LOCATION = A3; "
+RUN-1002 : start command "set_pin_assignment  signal_LED[0]   LOCATION = D3; "
+RUN-1002 : start command "set_pin_assignment  signal_LED[1]   LOCATION = E4; "
+RUN-1002 : start command "set_pin_assignment  signal_LED[2]   LOCATION = C1; "
+RUN-1002 : start command "set_pin_assignment  signal_LED[3]   LOCATION = C2; "
+RUN-1002 : start command "set_pin_assignment  HDMI_CLK_P   LOCATION = P4; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D0_P   LOCATION = J3; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D1_P   LOCATION = N1; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D2_P   LOCATION = P1; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  SD_CLK   LOCATION = J1; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SD_D[0]   LOCATION = H2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SD_D[1]   LOCATION = K1; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cs_n   LOCATION = K2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  miso   LOCATION = G1; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  mosi   LOCATION = H1; IOSTANDARD = LVCMOS33; "
+USR-6010 WARNING: ADC constraints: top model pin RXD_1 has no constraint.
+USR-6010 WARNING: ADC constraints: top model pin TXD_1 has no constraint.
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "CortexM0_SoC"
+SYN-1012 : SanityCheck: Model "AHBlite_SD"
+SYN-1012 : SanityCheck: Model "SD_top"
+SYN-1012 : SanityCheck: Model "sd_init"
+SYN-1012 : SanityCheck: Model "sd_rd_ctrl"
+SYN-1012 : SanityCheck: Model "sd_read"
+SYN-1012 : SanityCheck: Model "AHBlite_Bayer2RGB"
+SYN-1012 : SanityCheck: Model "Bayer2RGB"
+SYN-1012 : SanityCheck: Model "vip_matrix_generate_3x3_8bit"
+SYN-1012 : SanityCheck: Model "line_shift"
+SYN-1012 : SanityCheck: Model "DRAM"
+SYN-1012 : SanityCheck: Model "AHBlite_Gamma"
+SYN-1012 : SanityCheck: Model "AHBlite_HistEQ"
+SYN-1012 : SanityCheck: Model "AHBlite_Interconnect"
+SYN-1012 : SanityCheck: Model "AHBlite_Decoder"
+SYN-1012 : SanityCheck: Model "AHBlite_SlaveMUX"
+SYN-1012 : SanityCheck: Model "AHBlite_LED"
+SYN-1012 : SanityCheck: Model "AHBlite_Matrix_Key"
+SYN-1012 : SanityCheck: Model "AHBlite_MedFilter"
+SYN-1012 : SanityCheck: Model "AHBlite_PINTO"
+SYN-1012 : SanityCheck: Model "PINTO"
+SYN-1012 : SanityCheck: Model "vip_matrix_generate_5x5_8bit"
+SYN-1012 : SanityCheck: Model "line_shift_5x5"
+SYN-1012 : SanityCheck: Model "PIXEL_PLL"
+SYN-1012 : SanityCheck: Model "PLL"
+SYN-1012 : SanityCheck: Model "AHBlite_Block_RAM"
+SYN-1012 : SanityCheck: Model "Block_RAM"
+SYN-1012 : SanityCheck: Model "SDRAM_PLL"
+SYN-1012 : SanityCheck: Model "AHBlite_SEG"
+SYN-1012 : SanityCheck: Model "smg"
+SYN-1012 : SanityCheck: Model "AHBlite_Timer"
+SYN-1012 : SanityCheck: Model "UART_RX"
+SYN-1012 : SanityCheck: Model "UART_TX"
+SYN-1012 : SanityCheck: Model "FIFO"
+SYN-1012 : SanityCheck: Model "AHBlite_UART"
+SYN-1012 : SanityCheck: Model "clkuart_pwm"
+SYN-1012 : SanityCheck: Model "Keyboard"
+SYN-1012 : SanityCheck: Model "med_filter_proc"
+SYN-1012 : SanityCheck: Model "sdram_rw_top"
+SYN-1012 : SanityCheck: Model "SDRAM"
+SYN-1012 : SanityCheck: Model "sdram_top"
+SYN-1012 : SanityCheck: Model "sdram_controller"
+SYN-1012 : SanityCheck: Model "sdram_cmd"
+SYN-1012 : SanityCheck: Model "sdram_ctrl"
+SYN-1012 : SanityCheck: Model "sdram_data"
+SYN-1012 : SanityCheck: Model "sdram_fifo_ctrl"
+SYN-1012 : SanityCheck: Model "SDRAM_READ_FIFO"
+SYN-1012 : SanityCheck: Model "ram_infer_SDRAM_READ_FIFO(ADDRWIDTH_A=9,DATAWIDTH_B=8,REGMODE_B="OUTREG",ADDRWIDTH_B=11)"
+SYN-1012 : SanityCheck: Model "fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO"
+SYN-1012 : SanityCheck: Model "fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO(ADDR_WIDTH=11)"
+SYN-1012 : SanityCheck: Model "SDRAM_WRITE_FIFO"
+SYN-1012 : SanityCheck: Model "ram_infer_SDRAM_WRITE_FIFO(DATAWIDTH_A=8,ADDRWIDTH_A=11,DATAWIDTH_B=32,REGMODE_B="OUTREG",ADDRWIDTH_B=9)"
+SYN-1012 : SanityCheck: Model "fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO(ADDR_WIDTH=11)"
+SYN-1012 : SanityCheck: Model "fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO"
+SYN-1012 : SanityCheck: Model "hdmi_tx(1,3)"
+SYN-1012 : SanityCheck: Model "DVITransmitter(1,3)"
+SYN-1012 : SanityCheck: Model "TMDSEncoder"
+SYN-1012 : SanityCheck: Model "Serial_N_1_lvds_dat(1,3)"
+SYN-1012 : SanityCheck: Model "Serial_N_1_lvds(1,3)"
+SYN-1012 : SanityCheck: Model "cortexm0ds_logic"
+SYN-1012 : SanityCheck: Model "video_driver"
+SYN-1043 : Mark Serial_N_1_lvds(1,3) as IO macro for instance eg$oddr_snd
+SYN-1043 : Mark Serial_N_1_lvds_dat(1,3) as IO macro for instance eg$oddr_snd
+SYN-1043 : Mark DVITransmitter(1,3) as IO macro for instance Inst_blue_serializer_10_1
+SYN-1043 : Mark hdmi_tx(1,3) as IO macro for instance Inst_DVITransmitter
+SYN-1043 : Mark sdram_data as IO macro for instance sdram_data_inout_i
+SYN-1043 : Mark sdram_controller as IO macro for instance u_sdram_data
+SYN-1043 : Mark sdram_top as IO macro for instance u_sdram_controller
+SYN-1043 : Mark sdram_rw_top as IO macro for instance u_sdram_top
+SYN-1043 : Mark SDRAM_PLL as IO macro for instance bufg_feedback
+SYN-1043 : Mark PLL as IO macro for instance bufg_feedback
+SYN-1043 : Mark PIXEL_PLL as IO macro for instance bufg_feedback
+SYN-1011 : Flatten model CortexM0_SoC
+SYN-1032 : 35657/3493 useful/useless nets, 26733/1585 useful/useless insts
+SYN-1001 : Bypass 1 mux instances
+SYN-1001 : Optimize 4 less-than instances
+SYN-1016 : Merged 602 instances.
+SYN-1027 : Infer Logic DRAM(UART1_TX/FIFO/ramread0_syn_6) read 32x8, write 32x8
+SYN-1025 : Merged 3 RAM ports.
+SYN-1026 : Infer Logic BRAM(sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 2048 x 8	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1025 : Merged 3 RAM ports.
+SYN-1026 : Infer Logic BRAM(sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/ram_inst/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 2048 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_15)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_20)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_25)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_30)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_15)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_20)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_25)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_30)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 1 Logic DRAMs, 10 Logic BRAMs.
+SYN-1032 : 31619/1029 useful/useless nets, 23259/513 useful/useless insts
+SYN-1016 : Merged 314 instances.
+SYN-5011 WARNING: Undriven pin: model "CortexM0_SoC" / inst "PINTO_inst/reg43_syn_10" in ../../../rtl/ISP/PINTO.v(206) / pin "d"
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[31]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[30]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[29]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[28]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[27]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[26]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[25]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[24]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[23]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[22]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[21]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[20]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[19]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[18]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[17]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[16]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[15]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[14]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[13]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[12]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[11]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[10]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[9]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[8]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[7]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[6]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[5]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[4]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[3]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[2]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[1]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P13[0]" in ../../../rtl/AHBlite_Interconnect.v(227)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[31]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[30]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[29]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[28]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[27]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[26]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[25]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[24]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[23]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[22]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[21]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[20]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[19]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[18]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[17]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[16]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[15]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[14]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[13]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[12]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[11]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[10]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[9]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[8]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[7]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[6]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[5]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[4]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[3]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[2]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[1]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P14[0]" in ../../../rtl/AHBlite_Interconnect.v(242)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[31]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[30]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[29]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[28]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[27]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[26]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[25]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[24]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[23]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[22]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[21]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[20]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[19]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[18]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[17]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[16]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[15]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[14]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[13]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[12]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[11]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[10]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[9]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[8]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[7]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[6]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[5]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[4]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[3]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[2]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[1]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P15[0]" in ../../../rtl/AHBlite_Interconnect.v(257)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[31]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[30]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[29]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[28]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[27]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[26]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[25]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[24]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[23]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[22]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[21]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[20]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[19]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[18]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[17]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[16]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[15]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[14]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[13]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[12]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[11]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[10]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[9]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[8]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[7]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[6]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[5]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[4]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[3]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[2]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[1]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P16[0]" in ../../../rtl/AHBlite_Interconnect.v(272)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[31]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[30]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[29]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[28]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[27]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[26]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[25]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[24]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[23]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[22]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[21]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[20]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[19]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[18]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[17]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[16]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[15]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[14]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[13]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[12]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[11]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[10]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[9]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[8]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[7]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[6]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[5]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[4]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[3]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[2]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[1]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRDATA_P17[0]" in ../../../rtl/AHBlite_Interconnect.v(287)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(191)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P13" in ../../../rtl/AHBlite_Interconnect.v(226)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P14" in ../../../rtl/AHBlite_Interconnect.v(241)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P15" in ../../../rtl/AHBlite_Interconnect.v(256)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P16" in ../../../rtl/AHBlite_Interconnect.v(271)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HREADYOUT_P17" in ../../../rtl/AHBlite_Interconnect.v(286)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(133)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P13" in ../../../rtl/AHBlite_Interconnect.v(228)
+SYN-5014 WARNING: the net's pin: pin "i14" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P14" in ../../../rtl/AHBlite_Interconnect.v(243)
+SYN-5014 WARNING: the net's pin: pin "i15" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P15" in ../../../rtl/AHBlite_Interconnect.v(258)
+SYN-5014 WARNING: the net's pin: pin "i16" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P16" in ../../../rtl/AHBlite_Interconnect.v(273)
+SYN-5014 WARNING: the net's pin: pin "i17" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "Interconncet/HRESP_P17" in ../../../rtl/AHBlite_Interconnect.v(288)
+SYN-5014 WARNING: the net's pin: pin "i18" in ../../../rtl/AHBlite_SlaveMUX.v(162)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[7]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[6]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[5]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[4]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[3]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[2]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[1]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/dib[0]" in ../../al_ip/RAM.v(36)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../al_ip/RAM.v(62)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/web" in ../../al_ip/RAM.v(40)
+SYN-5014 WARNING: the net's pin: pin "web" in ../../al_ip/RAM.v(62)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1032 : 30775/104 useful/useless nets, 29327/174 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 66 inv instances.
+SYN-1032 : 30537/238 useful/useless nets, 29151/110 useful/useless insts
+SYN-1017 : Remove 12 const input seq instances
+SYN-1002 :     AHBlite_SD_Interface/SD_top_inst/sd_init_inst/reg3_syn_12
+SYN-1002 :     clkuart1_pwm/reg0_syn_10
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_controller/u_sdram_ctrl/reg2_syn_12
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg0_syn_2
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/rd_to_wr_cross_inst/reg0_syn_2
+SYN-1002 :     u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_6
+SYN-1002 :     u3_hdmi_tx/Inst_DVITransmitter/Inst_clk_serializer_10_1/reg0_syn_2
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg3_syn_2
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/rd_to_wr_cross_inst/reg3_syn_2
+SYN-1002 :     u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/c0_dd_reg
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/wr_to_rd_cross_inst/reg1_syn_2
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/rd_to_wr_cross_inst/reg1_syn_2
+SYN-1019 : Optimized 4 mux instances.
+SYN-1021 : Optimized 6 onehot mux instances.
+SYN-1020 : Optimized 200 distributor mux.
+SYN-1001 : Optimize 17 less-than instances
+SYN-1019 : Optimized 92 mux instances.
+SYN-1016 : Merged 1010 instances.
+SYN-1015 : Optimize round 1, 6743 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 5 inv instances.
+SYN-1032 : 28969/104 useful/useless nets, 27585/337 useful/useless insts
+SYN-1017 : Remove 5 const input seq instances
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/reg0_syn_12
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/reg0_syn_13
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/reg2_syn_2
+SYN-1002 :     sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/reg3_syn_13
+SYN-1002 :     u_logic/A3ipw6_reg
+SYN-1019 : Optimized 61 mux instances.
+SYN-1020 : Optimized 32 distributor mux.
+SYN-1016 : Merged 65 instances.
+SYN-1015 : Optimize round 2, 808 better
+SYN-1032 : 28854/78 useful/useless nets, 27476/39 useful/useless insts
+SYN-3004 : Optimized 3 const0 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-3008 : Optimized 1 const1 DFF(s)
+SYN-3008 : Optimized 1 const1 DFF(s)
+SYN-1032 : 28809/45 useful/useless nets, 27434/33 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 2 inv instances.
+SYN-1032 : 28793/2 useful/useless nets, 27418/1 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-1015 : Optimize round 1, 36 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 28781/11 useful/useless nets, 27414/3 useful/useless insts
+SYN-1015 : Optimize round 2, 6 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+RUN-1003 : finish command "optimize_rtl" in  12.518816s wall, 11.281250s user + 1.234375s system = 12.515625s CPU (100.0%)
+
+RUN-1004 : used memory is 246 MB, reserved memory is 215 MB, peak memory is 391 MB
+RUN-1002 : start command "report_area -file CortexM0_SoC_rtl.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        56
+  #input                   19
+  #output                  36
+  #inout                    1
+
+Gate Statistics
+#Basic gates            24029
+  #and                  10080
+  #nand                     0
+  #or                    2149
+  #nor                      0
+  #xor                    150
+  #xnor                    21
+  #buf                      0
+  #not                   6614
+  #bufif1                  33
+  #MX21                   608
+  #FADD                     0
+  #DFF                   4374
+  #LATCH                    0
+#MACRO_ADD                366
+#MACRO_EQ                 138
+#MACRO_MULT                 1
+#MACRO_MUX               2839
+#MACRO_OTHERS              30
+
+Report Hierarchy Area:
++--------------------------------------------------------------------------------------------------------------+
+|Instance                          |Module                                             |gates  |seq    |macros |
++--------------------------------------------------------------------------------------------------------------+
+|top                               |CortexM0_SoC                                       |19655  |4374   |535    |
+|  AHBlite_SD_Interface            |AHBlite_SD                                         |154    |273    |45     |
+|    SD_top_inst                   |SD_top                                             |140    |236    |42     |
+|      sd_init_inst                |sd_init                                            |14     |75     |14     |
+|      sd_rd_ctrl_inst             |sd_rd_ctrl                                         |103    |60     |5      |
+|      sd_read_inst                |sd_read                                            |20     |101    |23     |
+|  Bayer2RGB_Interface             |AHBlite_Bayer2RGB                                  |4      |2      |0      |
+|  Bayer2RGB_inst                  |Bayer2RGB                                          |4      |309    |26     |
+|    Matrix_Generate_3x3_8Bit_inst |vip_matrix_generate_3x3_8bit                       |0      |154    |3      |
+|      u_line_shift_ram_8bit       |line_shift                                         |0      |68     |3      |
+|        DRAM_inst1                |DRAM                                               |0      |0      |1      |
+|        DRAM_inst2                |DRAM                                               |0      |0      |1      |
+|  Gamma_Interface                 |AHBlite_Gamma                                      |4      |2      |0      |
+|  HistEQ_Interface                |AHBlite_HistEQ                                     |4      |2      |0      |
+|  Interconncet                    |AHBlite_Interconnect                               |260    |18     |36     |
+|    Decoder                       |AHBlite_Decoder                                    |0      |0      |18     |
+|    SlaveMUX                      |AHBlite_SlaveMUX                                   |260    |18     |18     |
+|  LED_Interface                   |AHBlite_LED                                        |4      |9      |0      |
+|  Matrix_Key_Interface            |AHBlite_Matrix_Key                                 |4      |5      |0      |
+|  MedFilter_Interface             |AHBlite_MedFilter                                  |4      |2      |0      |
+|  PINTO_Interface                 |AHBlite_PINTO                                      |4      |2      |0      |
+|  PINTO_inst                      |PINTO                                              |65     |676    |67     |
+|    vip_matrix_generate_5x5_8bit  |vip_matrix_generate_5x5_8bit                       |0      |336    |5      |
+|      u_line_shift_5x5_ram_8bit   |line_shift_5x5                                     |0      |124    |5      |
+|        DRAM_inst1                |DRAM                                               |0      |0      |1      |
+|        DRAM_inst2                |DRAM                                               |0      |0      |1      |
+|        DRAM_inst3                |DRAM                                               |0      |0      |1      |
+|        DRAM_inst4                |DRAM                                               |0      |0      |1      |
+|  PIXEL_PLL_inst                  |PIXEL_PLL                                          |0      |0      |1      |
+|  PLL_inst                        |PLL                                                |0      |0      |1      |
+|  RAMCODE_Interface               |AHBlite_Block_RAM                                  |18     |17     |0      |
+|  RAMDATA_Interface               |AHBlite_Block_RAM                                  |5      |17     |0      |
+|  RAM_CODE                        |Block_RAM                                          |0      |0      |4      |
+|  RAM_DATA                        |Block_RAM                                          |0      |0      |4      |
+|  SDRAM_PLL_inst                  |SDRAM_PLL                                          |0      |0      |1      |
+|  SEG_Interface                   |AHBlite_SEG                                        |14     |35     |3      |
+|    smg_inst                      |smg                                                |10     |18     |3      |
+|  Timer_Interface                 |AHBlite_Timer                                      |45     |68     |5      |
+|  UART1_RX                        |UART_RX                                            |31     |21     |5      |
+|  UART1_TX                        |UART_TX                                            |20     |18     |9      |
+|    FIFO                          |FIFO                                               |10     |12     |6      |
+|  UART_Interface                  |AHBlite_UART                                       |15     |6      |2      |
+|  clkuart1_pwm                    |clkuart_pwm                                        |2      |9      |3      |
+|  kb                              |Keyboard                                           |0      |160    |24     |
+|  med_filter_proc__red_inst       |med_filter_proc                                    |46     |302    |41     |
+|    Matrix_Generate_3x3_8Bit_inst |vip_matrix_generate_3x3_8bit                       |0      |154    |3      |
+|      u_line_shift_ram_8bit       |line_shift                                         |0      |68     |3      |
+|        DRAM_inst1                |DRAM                                               |0      |0      |1      |
+|        DRAM_inst2                |DRAM                                               |0      |0      |1      |
+|  med_filter_proc_green_inst      |med_filter_proc                                    |46     |248    |40     |
+|    Matrix_Generate_3x3_8Bit_inst |vip_matrix_generate_3x3_8bit                       |0      |112    |2      |
+|      u_line_shift_ram_8bit       |line_shift                                         |0      |32     |2      |
+|        DRAM_inst1                |DRAM                                               |0      |0      |1      |
+|        DRAM_inst2                |DRAM                                               |0      |0      |1      |
+|  med_filter_proc_inst            |med_filter_proc                                    |46     |248    |40     |
+|    Matrix_Generate_3x3_8Bit_inst |vip_matrix_generate_3x3_8bit                       |0      |112    |2      |
+|      u_line_shift_ram_8bit       |line_shift                                         |0      |32     |2      |
+|        DRAM_inst1                |DRAM                                               |0      |0      |1      |
+|        DRAM_inst2                |DRAM                                               |0      |0      |1      |
+|  sdram_rw_top_inst               |sdram_rw_top                                       |194    |414    |58     |
+|    SDRAM_inst                    |SDRAM                                              |0      |0      |0      |
+|    u_sdram_top                   |sdram_top                                          |194    |414    |58     |
+|      u_sdram_controller          |sdram_controller                                   |95     |131    |32     |
+|        u_sdram_cmd               |sdram_cmd                                          |19     |18     |10     |
+|        u_sdram_ctrl              |sdram_ctrl                                         |43     |48     |22     |
+|        u_sdram_data              |sdram_data                                         |33     |65     |0      |
+|      u_sdram_fifo_ctrl           |sdram_fifo_ctrl                                    |99     |283    |26     |
+|        rdfifo                    |SDRAM_READ_FIFO                                    |36     |109    |8      |
+|          ram_inst                |ram_infer_SDRAM_READ_FIFO                          |0      |8      |1      |
+|          rd_to_wr_cross_inst     |fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO  |16     |36     |0      |
+|          wr_to_rd_cross_inst     |fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO  |16     |40     |0      |
+|        wrfifo                    |SDRAM_WRITE_FIFO                                   |37     |133    |8      |
+|          ram_inst                |ram_infer_SDRAM_WRITE_FIFO                         |0      |32     |1      |
+|          rd_to_wr_cross_inst     |fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO |16     |40     |0      |
+|          wr_to_rd_cross_inst     |fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO |16     |36     |0      |
+|  u3_hdmi_tx                      |hdmi_tx                                            |131    |178    |91     |
+|    Inst_DVITransmitter           |DVITransmitter                                     |131    |178    |91     |
+|      Inst_TMDSEncoder_blue       |TMDSEncoder                                        |47     |39     |29     |
+|      Inst_TMDSEncoder_green      |TMDSEncoder                                        |40     |42     |29     |
+|      Inst_TMDSEncoder_red        |TMDSEncoder                                        |40     |42     |29     |
+|      Inst_blue_serializer_10_1   |Serial_N_1_lvds_dat                                |2      |20     |1      |
+|      Inst_clk_serializer_10_1    |Serial_N_1_lvds                                    |2      |7      |1      |
+|      Inst_green_serializer_10_1  |Serial_N_1_lvds_dat                                |0      |14     |1      |
+|      Inst_red_serializer_10_1    |Serial_N_1_lvds_dat                                |0      |14     |1      |
+|  u_logic                         |cortexm0ds_logic                                   |18517  |1306   |14     |
+|  video_driver_inst               |video_driver                                       |9      |23     |15     |
++--------------------------------------------------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db CortexM0_SoC_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db CortexM0_SoC_rtl.db" in  1.025033s wall, 1.609375s user + 0.015625s system = 1.625000s CPU (158.5%)
+
+RUN-1004 : used memory is 244 MB, reserved memory is 217 MB, peak memory is 391 MB
+RUN-1002 : start command "read_sdc ../../sysclk_adc.sdc"
+RUN-1002 : start command "get_nets  clk "
+RUN-1002 : start command "create_clock -name clk -period 40 -waveform 0 20 "
+RUN-1102 : create_clock: clock name: clk, type: 0, period: 40000, rise: 0, fall: 20000.
+RUN-1002 : start command "get_ports  System_clk "
+RUN-1002 : start command "create_clock -name System_clk -period 20 -waveform 0 10 "
+RUN-1102 : create_clock: clock name: System_clk, type: 0, period: 20000, rise: 0, fall: 10000.
+RUN-1002 : start command "get_ports System_clk"
+RUN-1002 : start command "get_nets pixel_clk"
+RUN-1002 : start command "create_generated_clock -name pclk -source  -master_clock System_clk -multiply_by 1 "
+RUN-1002 : start command "get_ports System_clk"
+RUN-1002 : start command "get_nets pixel_clk_5x"
+RUN-1002 : start command "create_generated_clock -name sclk5 -source  -master_clock System_clk -multiply_by 5 "
+RUN-1002 : start command "get_regs */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs */sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  5 -datapath_only"
+RUN-1002 : start command "get_regs */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs */sync_r1[*]"
+RUN-1002 : start command "set_false_path -from  -to  -hold 5"
+USR-1002 : set_false_path -help -setup -hold -from <list> -rise_from <list> -fall_from <list> -to <list> -rise_to <list> -fall_to <list> -through <list>
+RUN-1002 : start command "get_regs */primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs */sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  5 -datapath_only"
+RUN-1104 : Import SDC file ../../sysclk_adc.sdc finished, there are 79 nets kept by constraints.
+RUN-1002 : start command "optimize_gate -maparea CortexM0_SoC_gate.area"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |    off     |       off        |        
+RUN-1001 :        map_sim_model        |    off     |       off        |        
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-2002 : EG_PHY_SDRAM_2M_32 instance sdram_rw_top_inst/SDRAM_inst/sdram.
+SYN-2001 : Map 111 IOs to PADs
+SYN-1032 : 29149/4 useful/useless nets, 27809/37 useful/useless insts
+RUN-1002 : start command "update_pll_param -module CortexM0_SoC"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 3 BUFG to GCLK
+SYN-2595 : bram inst: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_15 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_20 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_25 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_30 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_15 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_20 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_25 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_30 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: med_filter_proc_green_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/ram_inst/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2512 : LOGIC BRAM "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst"
+SYN-2512 : LOGIC BRAM "Bayer2RGB_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst"
+SYN-2512 : LOGIC BRAM "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst1/inst"
+SYN-2512 : LOGIC BRAM "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst2/inst"
+SYN-2512 : LOGIC BRAM "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst3/inst"
+SYN-2512 : LOGIC BRAM "PINTO_inst/vip_matrix_generate_5x5_8bit/u_line_shift_5x5_ram_8bit/DRAM_inst4/inst"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_32"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_34"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_36"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_38"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_32"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_34"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_36"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_38"
+SYN-2512 : LOGIC BRAM "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst1/inst_syn_2"
+SYN-2512 : LOGIC BRAM "med_filter_proc__red_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/inst_syn_2"
+SYN-2512 : LOGIC BRAM "sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/rdfifo/ram_inst/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/wrfifo/ram_inst/ramread0_syn_8"
+SYN-2531 : Dram(UART1_TX/FIFO/ramread0_syn_6) write 32x8, read 32x8
+SYN-2571 : Map 1 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 29276/68 useful/useless nets, 27858/1 useful/useless insts
+SYN-1016 : Merged 321 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 390 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1001 : Throwback 208 control mux instances
+SYN-1001 : Optimize 3 less-than instances
+SYN-2501 : Optimize round 1
+SYN-1032 : 31062/3 useful/useless nets, 29815/3 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg3_syn_7
+SYN-1016 : Merged 559 instances.
+SYN-2501 : Optimize round 1, 2024 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 1 better
+SYN-2501 : Optimize round 3
+SYN-2501 : Optimize round 3, 0 better
+SYN-2501 : Map 341 macro adder
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 31 instances into 2 LUTs, name keeping = 50%.
+SYN-3001 : Mapper mapped 63 instances into 2 LUTs, name keeping = 50%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 10 ROM instances
+SYN-1019 : Optimized 246 mux instances.
+SYN-1016 : Merged 320 instances.
+SYN-1032 : 33818/298 useful/useless nets, 32584/3 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model CortexM0_SoC.
+TMR-2506 : Build timing graph completely. Port num: 22, tpin num: 99560, tnet num: 33818, tinst num: 32583, tnode num: 109999, tedge num: 133288.
+TMR-2508 : Levelizing timing graph completed, there are 273 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -prepack" in  1.433393s wall, 1.390625s user + 0.031250s system = 1.421875s CPU (99.2%)
+
+RUN-1004 : used memory is 391 MB, reserved memory is 366 MB, peak memory is 391 MB
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 33818 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 4 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 2 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 7497 (3.63), #lev = 35 (5.25)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 7403 (3.65), #lev = 33 (5.29)
+SYN-3001 : Logic optimization runtime opt =   1.85 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 24874 instances into 7422 LUTs, name keeping = 51%.
+SYN-3001 : Mapper removed 6 lut buffers
+RUN-1002 : start command "report_area -file CortexM0_SoC_gate.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        56
+  #input                   19
+  #output                  36
+  #inout                    1
+
+LUT Statistics
+#Total_luts             10488
+  #lut4                  6153
+  #lut5                  1272
+  #lut6                     1
+  #lut5_mx41                0
+  #lut4_alu1b            3062
+
+Utilization Statistics
+#lut                    10489   out of  19600   53.52%
+#reg                     4311   out of  19600   21.99%
+#le                         0
+#dsp                        3   out of     29   10.34%
+#bram                      26   out of     64   40.62%
+  #bram9k                  26
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#dram                       4
+#pad                       60   out of    188   31.91%
+  #ireg                     0
+  #oreg                     4
+  #treg                     0
+#pll                        3   out of      4   75.00%
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------------------------------------------------------+
+|Instance                          |Module                                             |lut     |ripple  |seq     |bram    |dsp     |
++-----------------------------------------------------------------------------------------------------------------------------------+
+|top                               |CortexM0_SoC                                       |7427    |3062    |4315    |34      |3       |
+|  AHBlite_SD_Interface            |AHBlite_SD                                         |424     |197     |337     |0       |0       |
+|    SD_top_inst                   |SD_top                                             |414     |197     |300     |0       |0       |
+|      sd_init_inst                |sd_init                                            |79      |45      |75      |0       |0       |
+|      sd_rd_ctrl_inst             |sd_rd_ctrl                                         |152     |59      |124     |0       |0       |
+|      sd_read_inst                |sd_read                                            |183     |93      |101     |0       |0       |
+|  Bayer2RGB_Interface             |AHBlite_Bayer2RGB                                  |5       |0       |2       |0       |0       |
+|  Bayer2RGB_inst                  |Bayer2RGB                                          |161     |200     |309     |4       |0       |
+|    Matrix_Generate_3x3_8Bit_inst |vip_matrix_generate_3x3_8bit                       |72      |12      |154     |4       |0       |
+|      u_line_shift_ram_8bit       |line_shift                                         |0       |12      |68      |4       |0       |
+|        DRAM_inst1                |DRAM                                               |0       |0       |0       |2       |0       |
+|        DRAM_inst2                |DRAM                                               |0       |0       |0       |2       |0       |
+|  Gamma_Interface                 |AHBlite_Gamma                                      |3       |0       |2       |0       |0       |
+|  HistEQ_Interface                |AHBlite_HistEQ                                     |3       |0       |2       |0       |0       |
+|  Interconncet                    |AHBlite_Interconnect                               |9       |0       |18      |0       |0       |
+|    Decoder                       |AHBlite_Decoder                                    |7       |0       |0       |0       |0       |
+|    SlaveMUX                      |AHBlite_SlaveMUX                                   |0       |0       |18      |0       |0       |
+|  LED_Interface                   |AHBlite_LED                                        |3       |0       |9       |0       |0       |
+|  Matrix_Key_Interface            |AHBlite_Matrix_Key                                 |7       |0       |5       |0       |0       |
+|  MedFilter_Interface             |AHBlite_MedFilter                                  |4       |0       |2       |0       |0       |
+|  PINTO_Interface                 |AHBlite_PINTO                                      |4       |0       |2       |0       |0       |
+|  PINTO_inst                      |PINTO                                              |416     |580     |676     |8       |0       |
+|    vip_matrix_generate_5x5_8bit  |vip_matrix_generate_5x5_8bit                       |192     |12      |336     |8       |0       |
+|      u_line_shift_5x5_ram_8bit   |line_shift_5x5                                     |0       |12      |124     |8       |0       |
+|        DRAM_inst1                |DRAM                                               |0       |0       |0       |2       |0       |
+|        DRAM_inst2                |DRAM                                               |0       |0       |0       |2       |0       |
+|        DRAM_inst3                |DRAM                                               |0       |0       |0       |2       |0       |
+|        DRAM_inst4                |DRAM                                               |0       |0       |0       |2       |0       |
+|  PIXEL_PLL_inst                  |PIXEL_PLL                                          |0       |0       |0       |0       |0       |
+|  PLL_inst                        |PLL                                                |0       |0       |0       |0       |0       |
+|  RAMCODE_Interface               |AHBlite_Block_RAM                                  |9       |0       |17      |0       |0       |
+|  RAMDATA_Interface               |AHBlite_Block_RAM                                  |19      |0       |17      |0       |0       |
+|  RAM_CODE                        |Block_RAM                                          |4       |0       |0       |4       |0       |
+|  RAM_DATA                        |Block_RAM                                          |4       |0       |0       |4       |0       |
+|  SDRAM_PLL_inst                  |SDRAM_PLL                                          |0       |0       |0       |0       |0       |
+|  SEG_Interface                   |AHBlite_SEG                                        |32      |17      |35      |0       |0       |
+|    smg_inst                      |smg                                                |29      |17      |18      |0       |0       |
+|  Timer_Interface                 |AHBlite_Timer                                      |41      |66      |68      |0       |0       |
+|  UART1_RX                        |UART_RX                                            |27      |0       |21      |0       |0       |
+|  UART1_TX                        |UART_TX                                            |54      |0       |18      |0       |0       |
+|    FIFO                          |FIFO                                               |26      |0       |12      |0       |0       |
+|  UART_Interface                  |AHBlite_UART                                       |25      |0       |6       |0       |0       |
+|  clkuart1_pwm                    |clkuart_pwm                                        |12      |9       |9       |0       |0       |
+|  kb                              |Keyboard                                           |216     |168     |160     |0       |0       |
+|  med_filter_proc__red_inst       |med_filter_proc                                    |210     |392     |302     |10      |0       |
+|    Matrix_Generate_3x3_8Bit_inst |vip_matrix_generate_3x3_8bit                       |72      |12      |154     |10      |0       |
+|      u_line_shift_ram_8bit       |line_shift                                         |0       |12      |68      |10      |0       |
+|        DRAM_inst1                |DRAM                                               |0       |0       |0       |5       |0       |
+|        DRAM_inst2                |DRAM                                               |0       |0       |0       |5       |0       |
+|  med_filter_proc_green_inst      |med_filter_proc                                    |210     |380     |248     |0       |0       |
+|    Matrix_Generate_3x3_8Bit_inst |vip_matrix_generate_3x3_8bit                       |72      |0       |112     |0       |0       |
+|      u_line_shift_ram_8bit       |line_shift                                         |0       |0       |32      |0       |0       |
+|  med_filter_proc_inst            |med_filter_proc                                    |118     |380     |124     |0       |0       |
+|    Matrix_Generate_3x3_8Bit_inst |vip_matrix_generate_3x3_8bit                       |36      |0       |56      |0       |0       |
+|      u_line_shift_ram_8bit       |line_shift                                         |0       |0       |16      |0       |0       |
+|        DRAM_inst2                |DRAM                                               |0       |0       |0       |0       |0       |
+|  sdram_rw_top_inst               |sdram_rw_top                                       |271     |269     |414     |4       |0       |
+|    SDRAM_inst                    |SDRAM                                              |0       |0       |0       |0       |0       |
+|    u_sdram_top                   |sdram_top                                          |271     |269     |414     |4       |0       |
+|      u_sdram_controller          |sdram_controller                                   |137     |97      |131     |0       |0       |
+|        u_sdram_cmd               |sdram_cmd                                          |54      |0       |18      |0       |0       |
+|        u_sdram_ctrl              |sdram_ctrl                                         |83      |97      |48      |0       |0       |
+|        u_sdram_data              |sdram_data                                         |0       |0       |65      |0       |0       |
+|      u_sdram_fifo_ctrl           |sdram_fifo_ctrl                                    |134     |172     |283     |4       |0       |
+|        rdfifo                    |SDRAM_READ_FIFO                                    |41      |54      |109     |2       |0       |
+|          ram_inst                |ram_infer_SDRAM_READ_FIFO                          |0       |0       |8       |2       |0       |
+|          rd_to_wr_cross_inst     |fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO  |16      |0       |36      |0       |0       |
+|          wr_to_rd_cross_inst     |fifo_cross_domain_addr_process_al_SDRAM_READ_FIFO  |16      |0       |40      |0       |0       |
+|        wrfifo                    |SDRAM_WRITE_FIFO                                   |40      |56      |133     |2       |0       |
+|          ram_inst                |ram_infer_SDRAM_WRITE_FIFO                         |0       |0       |32      |2       |0       |
+|          rd_to_wr_cross_inst     |fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO |16      |0       |40      |0       |0       |
+|          wr_to_rd_cross_inst     |fifo_cross_domain_addr_process_al_SDRAM_WRITE_FIFO |16      |0       |36      |0       |0       |
+|  u3_hdmi_tx                      |hdmi_tx                                            |203     |90      |175     |0       |0       |
+|    Inst_DVITransmitter           |DVITransmitter                                     |203     |90      |175     |0       |0       |
+|      Inst_TMDSEncoder_blue       |TMDSEncoder                                        |47      |30      |38      |0       |0       |
+|      Inst_TMDSEncoder_green      |TMDSEncoder                                        |65      |30      |41      |0       |0       |
+|      Inst_TMDSEncoder_red        |TMDSEncoder                                        |63      |30      |41      |0       |0       |
+|      Inst_blue_serializer_10_1   |Serial_N_1_lvds_dat                                |10      |0       |20      |0       |0       |
+|      Inst_clk_serializer_10_1    |Serial_N_1_lvds                                    |2       |0       |7       |0       |0       |
+|      Inst_green_serializer_10_1  |Serial_N_1_lvds_dat                                |8       |0       |14      |0       |0       |
+|      Inst_red_serializer_10_1    |Serial_N_1_lvds_dat                                |8       |0       |14      |0       |0       |
+|  u_logic                         |cortexm0ds_logic                                   |4901    |173     |1306    |0       |3       |
+|  video_driver_inst               |video_driver                                       |24      |141     |23      |0       |0       |
++-----------------------------------------------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "CortexM0_SoC" ...
+SYN-4010 : Pack lib has 58 rtl pack models with 25 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 1 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-4002 : Packing 4310 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 74 carry chain into lslice
+SYN-4007 : Packing 2037 adder to BLE ...
+SYN-4008 : Packed 2037 adder and 2 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-4013 : Packed 4 DRAM and 0 SEQ.
+RUN-1003 : finish command "optimize_gate -maparea CortexM0_SoC_gate.area" in  18.028828s wall, 17.640625s user + 0.390625s system = 18.031250s CPU (100.0%)
+
+RUN-1004 : used memory is 309 MB, reserved memory is 310 MB, peak memory is 512 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model CortexM0_SoC
+RUN-1002 : start command "export_db CortexM0_SoC_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db CortexM0_SoC_gate.db" in  1.346984s wall, 2.203125s user + 0.031250s system = 2.234375s CPU (165.9%)
+
+RUN-1004 : used memory is 320 MB, reserved memory is 298 MB, peak memory is 512 MB
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20240515_202503.log"

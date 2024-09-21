@@ -1,0 +1,331 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Daggal/Desktop/image_pro/image_pro/sim/1
+T_opt
+!s110 1715607899
+VHNY;?=Be1ZOO;C2=88ajS1
+Z1 04 4 4 work test fast 0
+=1-e454e8339443-6642195a-373-4ea0
+o-quiet -auto_acc_if_foreign -work work -L D:/modeltech64_2019.2/Anlogic/eg/EG4_ver +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.2;69
+T_opt1
+!s110 1715607643
+VnZCc>cN?g:<a:hjz;X8?I2
+R1
+=1-e454e8339443-6642185b-de-6594
+Z4 o-quiet -auto_acc_if_foreign -work work -L D:/modeltech64_2019.2/Anlogic/eg/EG4_ver
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1715607659
+VnBc:5h?Q=ZI2YYPVVA8;P3
+04 9 4 work testbench fast 0
+=1-e454e8339443-6642186b-87-4af4
+R4
+R2
+n@_opt2
+R3
+R0
+vBayer2RGB
+Z5 !s110 1715607884
+!i10b 1
+!s100 Fd<Ca90<nl=XiaeJFDW?e3
+!s11b ]B@@mgh>f]nNB^aEgNmQg0
+IV@z[_:>k_bWIh5;J7U<;K2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 dC:/Users/Daggal/Desktop/Bayer2RGB
+w1715591134
+8C:/Users/Daggal/Desktop/Bayer2RGB/Bayer2RGB.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/Bayer2RGB.v
+L0 1
+Z8 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z9 !s108 1715607884.000000
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/Bayer2RGB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/Bayer2RGB.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@bayer2@r@g@b
+vdelay11
+Z11 !s110 1715607885
+!i10b 1
+!s100 3eOlNGK62=jjNB?5a?0EO1
+!s11b haPbh`=gBhW07o`lYc;c[3
+I_:SlajgR[L`;nH`o1l9T:1
+R6
+R7
+Z12 w1715606719
+Z13 8C:/Users/Daggal/Desktop/Bayer2RGB/delay11.v
+Z14 FC:/Users/Daggal/Desktop/Bayer2RGB/delay11.v
+L0 36
+R8
+r1
+!s85 0
+31
+Z15 !s108 1715607885.000000
+Z16 !s107 C:/Users/Daggal/Desktop/Bayer2RGB/delay11.v|
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/delay11.v|
+!i113 0
+R10
+R2
+vdelay11_3
+R11
+!i10b 1
+!s100 :NAJGl6eh9MmLenzLo[YK0
+!s11b 2Jj5[`RDFY<Rb;13DRLlT3
+IMg_3n^J0QfgJn26S0HjiK3
+R6
+R7
+w1715606881
+8C:/Users/Daggal/Desktop/Bayer2RGB/delay11_3.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/delay11_3.v
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/delay11_3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/delay11_3.v|
+!i113 0
+R10
+R2
+vdelay20
+R11
+!i10b 1
+!s100 l=NWRfn]mF37TNJK16WlF0
+!s11b WzW`;CL2l42TQ8>A2KOhT3
+I3Sa3?PiB4I]2KlXP?^PUQ3
+R6
+R7
+R12
+R13
+R14
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R10
+R2
+vDRAM
+R5
+!i10b 1
+!s100 5Z47zR7[Q]2i?0i2a[bVX3
+!s11b P;KHXZ8H_6PDYFz7NUZK@1
+I1WHD9b3ShaKY4k1:_z53R3
+R6
+R7
+w1714187124
+8C:/Users/Daggal/Desktop/Bayer2RGB/RAM.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/RAM.v
+L0 14
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/RAM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/RAM.v|
+!i113 0
+R10
+R2
+n@d@r@a@m
+vfifo_ctrl
+R11
+!i10b 1
+!s100 >mOQDhVBEjne?j:=<z:ID2
+!s11b ]aYaY_V;DQ?cAVH69j>]Z0
+I@62cFHT<cF[>PMeCNFCI=2
+R6
+R7
+w1715604941
+8C:/Users/Daggal/Desktop/Bayer2RGB/fifo_ctrl.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/fifo_ctrl.v
+L0 2
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/fifo_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/fifo_ctrl.v|
+!i113 0
+R10
+R2
+vline_shift
+!s110 1715605195
+!i10b 1
+!s100 90>;8@E6@5>8KA;4kzYb[3
+!s11b 0hUQSJLVdD:`4_o2kX:Yf3
+IfSNiG9XUB?9jfzjaIS6If2
+R6
+R7
+w1715598939
+8C:/Users/Daggal/Desktop/Bayer2RGB/line_shift.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/line_shift.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1715605195.000000
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/line_shift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/line_shift.v|
+!i113 0
+R10
+R2
+vline_shift_fifo
+!s110 1715607896
+!i10b 1
+!s100 mI<DXkP:SP1ECC?`lkjGE3
+!s11b obfjL3Bi4oj^ZlUIejW>E2
+Id72da_ET5a6Yl8f7Tdfd`1
+R6
+R7
+w1715604854
+8C:/Users/Daggal/Desktop/Bayer2RGB/line_shift_fifo_sim.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/line_shift_fifo_sim.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1715607896.000000
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/line_shift_fifo_sim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/line_shift_fifo_sim.v|
+!i113 0
+R10
+R2
+vMatrix_3X3
+!s110 1715607887
+!i10b 1
+!s100 MhnBXY1gC=9e@;56WfU600
+!s11b =NOB2]IhncFeMgAm:H2F]3
+ICUSQ[2RK0KZLFzbj5HCdB0
+R6
+R7
+w1715605191
+8C:/Users/Daggal/Desktop/Bayer2RGB/Matrix_3x3.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/Matrix_3x3.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1715607887.000000
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/Matrix_3x3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/Matrix_3x3.v|
+!i113 0
+R10
+R2
+n@matrix_3@x3
+vram_dual
+R11
+!i10b 1
+!s100 EiWg2iGcQU_JR7_DTYCd=3
+!s11b Q>c[zhgg`>Y;3UF7nIm3N3
+IQ7CLBD_oHF0fTCYf:3Zma3
+R6
+R7
+w1715439566
+8C:/Users/Daggal/Desktop/Bayer2RGB/ram_d.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/ram_d.v
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/ram_d.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/ram_d.v|
+!i113 0
+R10
+R2
+vtest
+R11
+!i10b 1
+!s100 >GZk>_^Hg]>kBZz]HITgM2
+!s11b 1WYDfY3^6iHcHm1nGD;o41
+IJ^XRR`h_WC5d14Pbk;FZ40
+R6
+R7
+w1715605998
+8C:/Users/Daggal/Desktop/Bayer2RGB/test.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/test.v
+L0 2
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/test.v|
+!i113 0
+R10
+R2
+vtestbench
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R5
+!i10b 1
+!s100 K5X6Y;eYdYNZnJz^cZH>L2
+!s11b LS2RC:9N4a<=]DDU>0cdn1
+I9i[ZQY<^clJe>Bf@9[W113
+R6
+S1
+R7
+w1715607507
+8C:/Users/Daggal/Desktop/Bayer2RGB/testbench.sv
+FC:/Users/Daggal/Desktop/Bayer2RGB/testbench.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/testbench.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vvip_matrix_generate_3x3_8bit
+R11
+!i10b 1
+!s100 MUkO8Y]Xk8@ngkP[>MJY41
+!s11b P=^N;4_:ooI9UXZ1F[2mh2
+IYNii]3HW449T`TMZihabE3
+R6
+R7
+w1715606749
+8C:/Users/Daggal/Desktop/Bayer2RGB/vip_matrix_generate_3x3_8bit.v
+FC:/Users/Daggal/Desktop/Bayer2RGB/vip_matrix_generate_3x3_8bit.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Daggal/Desktop/Bayer2RGB/vip_matrix_generate_3x3_8bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Daggal/Desktop/Bayer2RGB/vip_matrix_generate_3x3_8bit.v|
+!i113 0
+R10
+R2

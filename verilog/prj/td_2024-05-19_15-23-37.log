@@ -1,0 +1,201 @@
+============================================================
+   Tang Dynasty, V5.6.59063
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/Anlogic/TD5.6.59063/bin/td.exe
+   Built at =   12:45:13 Sep  6 2022
+   Run by =     Daggal
+   Run Date =   Sun May 19 15:23:37 2024
+
+   Run on =     DESKTOP-I7CAGU2
+============================================================
+TMR-3509 : Import timing summary.
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+TMR-3509 : Import timing summary.
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+TMR-3509 : Import timing summary.
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+TMR-3509 : Import timing summary.
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-6001 WARNING: Failed to reset phy_1: some files can't be removed in C:/Users/Daggal/Desktop/Cortex-M0/verilog/prj/CortexM0_SoC_Runs/phy_1
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+RUN-1001 : phy_1: run complete.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/Daggal/Desktop/Cortex-M0/verilog/prj/CortexM0_SoC_Runs/phy_1/CortexM0_SoC_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.59063.
+RUN-1001 : Database version number 46140.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net SD_CLK_dup_1 will be routed on clock mesh
+PHY-1001 : clock net SWCLK_syn_4 will be merged with clock SWCLK_dup_1
+PHY-1001 : net System_clk_dup_1 will be routed on clock mesh
+PHY-1001 : clock net Gamma_Interface/en_state_syn_4 will be merged with clock Gamma_Interface/en_state
+PHY-1001 : clock net PIXEL_PLL_inst/clk0_out will be merged with clock PIXEL_PLL_inst/clk0_buf
+PHY-1001 : clock net PLL_inst/clk0_out will be merged with clock PLL_inst/clk0_buf
+PHY-1001 : clock net SEG_Interface/smg_inst/cnt_1ms[0]_syn_6 will be merged with clock SEG_Interface/smg_inst/cnt_1ms[0]
+PHY-1001 : net u_logic/SCLK will be routed on clock mesh
+PHY-1001 : net med_filter_proc_inst/Matrix_Generate_3x3_8Bit_inst/u_line_shift_ram_8bit/DRAM_inst2/clkb will be routed on clock mesh
+PHY-1001 : net sdram_rw_top_inst/clk_sdram will be routed on clock mesh
+PHY-1001 : clock net sdram_rw_top_inst/u_sdram_top/u_sdram_fifo_ctrl/clk_ref will be merged with clock SDRAM_PLL_inst/clk0_buf
+PHY-1001 : net u3_hdmi_tx/PXLCLK_5X_I will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : 805 feed throughs used by 498 nets
+RUN-1001 : Import timing constraints
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.59063 , DB_VERSION=46140
+RUN-1003 : finish command "import_db C:/Users/Daggal/Desktop/Cortex-M0/verilog/prj/CortexM0_SoC_Runs/phy_1/CortexM0_SoC_pr.db" in  11.645243s wall, 11.390625s user + 0.375000s system = 11.765625s CPU (101.0%)
+
+RUN-1004 : used memory is 819 MB, reserved memory is 794 MB, peak memory is 863 MB
+RUN-1002 : start command "report_timing"
+RUN-1002 : start command "start_timer"
+RUN-1003 : finish command "start_timer" in  1.776719s wall, 1.796875s user + 0.031250s system = 1.828125s CPU (102.9%)
+
+RUN-1004 : used memory is 898 MB, reserved memory is 874 MB, peak memory is 898 MB
+RUN-1002 : start command "end_timer"
+RUN-1003 : finish command "report_timing" in  2.869715s wall, 2.859375s user + 0.062500s system = 2.921875s CPU (101.8%)
+
+RUN-1004 : used memory is 867 MB, reserved memory is 848 MB, peak memory is 961 MB
+RUN-1002 : start command "download -bit CortexM0_SoC_Runs\phy_1\CortexM0_SoC.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit CortexM0_SoC_Runs/phy_1/CortexM0_SoC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  7.081739s wall, 0.265625s user + 0.328125s system = 0.593750s CPU (8.4%)
+
+RUN-1004 : used memory is 931 MB, reserved memory is 899 MB, peak memory is 961 MB
+RUN-1003 : finish command "download -bit CortexM0_SoC_Runs\phy_1\CortexM0_SoC.bit -mode jtag -spd 7 -sec 64 -cable 0" in  7.326806s wall, 0.421875s user + 0.343750s system = 0.765625s CPU (10.4%)
+
+RUN-1004 : used memory is 931 MB, reserved memory is 899 MB, peak memory is 961 MB
+GUI-1001 : Download success!
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.
+TMR-3509 : Import timing summary.

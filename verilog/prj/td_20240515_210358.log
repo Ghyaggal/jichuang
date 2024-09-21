@@ -1,0 +1,165 @@
+============================================================
+   Tang Dynasty, V5.6.59063
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/Anlogic/TD5.6.59063/bin/td.exe
+   Built at =   12:45:13 Sep  6 2022
+   Run by =     Daggal
+   Run Date =   Wed May 15 21:03:58 2024
+
+   Run on =     DESKTOP-I7CAGU2
+============================================================
+RUN-001 : GUI based run...
+RUN-1002 : start command "open_project CortexM0_SoC.al -update"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/PLL.v(89)
+HDL-1007 : analyze verilog file al_ip/SDRAM_PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/SDRAM_PLL.v(72)
+HDL-1007 : analyze verilog file al_ip/PIXEL_PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/PIXEL_PLL.v(79)
+HDL-1007 : analyze verilog file al_ip/SDRAM_WRITE_FIFO.v
+HDL-1007 : analyze verilog file al_ip/SDRAM_READ_FIFO.v
+HDL-1007 : analyze verilog file al_ip/SDRAM.v
+HDL-1007 : analyze verilog file al_ip/RAM.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_LED.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Matrix_Key.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Timer.v
+HDL-1007 : analyze verilog file ../rtl/Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+HDL-1007 : undeclared symbol 'rst_n', assumed default net type 'wire' in ../rtl/CortexM0_SoC.v(1364)
+HDL-1007 : analyze verilog file ../rtl/Keyboard.v
+HDL-1007 : analyze verilog file ../rtl/cortexm0ds_logic.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SEG.v
+HDL-1007 : analyze verilog file ../rtl/smg.v
+HDL-1007 : analyze VHDL file ../rtl/HDMI/DVITransmitter.enc.vhd
+HDL-1007 : analyze entity dvitransmitter in ../rtl/HDMI/DVITransmitter.enc.vhd(13)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : analyze architecture ** in encrypted_text(0)
+HDL-1007 : analyze VHDL file ../rtl/HDMI/SerializerN_1_lvds.enc.vhd
+HDL-1007 : analyze entity ** in encrypted_text(0)
+HDL-1007 : analyze architecture ** in encrypted_text(0)
+HDL-1007 : analyze VHDL file ../rtl/HDMI/SerializerN_1_lvds_dat.enc.vhd
+HDL-1007 : analyze entity ** in encrypted_text(0)
+HDL-1007 : analyze architecture ** in encrypted_text(0)
+HDL-1007 : analyze VHDL file ../rtl/HDMI/TMDSEncoder.enc.vhd
+HDL-1007 : analyze entity ** in encrypted_text(0)
+HDL-1007 : analyze architecture ** in encrypted_text(0)
+HDL-1007 : analyze VHDL file ../rtl/HDMI/hdmi_tx.vhd
+HDL-1007 : analyze entity hdmi_tx in ../rtl/HDMI/hdmi_tx.vhd(11)
+HDL-1007 : analyze architecture behavioral in ../rtl/HDMI/hdmi_tx.vhd(33)
+HDL-1007 : analyze verilog file ../rtl/HDMI/video_driver.v
+HDL-1007 : analyze verilog file ../rtl/SD/SD_top.v
+HDL-1007 : analyze verilog file ../rtl/SD/sd_init.v
+HDL-1007 : analyze verilog file ../rtl/SD/sd_rd_ctrl.v
+HDL-1007 : analyze verilog file ../rtl/SD/sd_read.v
+HDL-1007 : analyze verilog file ../rtl/DDR/sdram_cmd.v
+HDL-1007 : analyze included file ../rtl/DDR/sdram_para.v in ../rtl/DDR/sdram_cmd.v(45)
+HDL-1007 : back to file '../rtl/DDR/sdram_cmd.v' in ../rtl/DDR/sdram_cmd.v(45)
+HDL-1007 : analyze verilog file ../rtl/DDR/sdram_controller.v
+HDL-1007 : analyze verilog file ../rtl/DDR/sdram_ctrl.v
+HDL-1007 : analyze included file ../rtl/DDR/sdram_para.v in ../rtl/DDR/sdram_ctrl.v(19)
+HDL-1007 : back to file '../rtl/DDR/sdram_ctrl.v' in ../rtl/DDR/sdram_ctrl.v(19)
+HDL-1007 : analyze verilog file ../rtl/DDR/sdram_data.v
+HDL-1007 : analyze included file ../rtl/DDR/sdram_para.v in ../rtl/DDR/sdram_data.v(13)
+HDL-1007 : back to file '../rtl/DDR/sdram_data.v' in ../rtl/DDR/sdram_data.v(13)
+HDL-1007 : analyze verilog file ../rtl/DDR/sdram_fifo_ctrl.v
+HDL-1007 : analyze verilog file ../rtl/DDR/sdram_rw_top.v
+HDL-1007 : analyze verilog file ../rtl/DDR/sdram_top.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SD.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Bayer2RGB.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Gamma.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_PINTO.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_UART.v
+HDL-1007 : analyze verilog file ../rtl/ISP/Bayer2RGB.v
+HDL-1007 : analyze verilog file ../rtl/ISP/Curve_Gamma_2P2.v
+HDL-1007 : analyze verilog file ../rtl/ISP/PINTO.v
+HDL-1007 : analyze verilog file ../rtl/ISP/line_shift.v
+HDL-1007 : analyze verilog file ../rtl/ISP/line_shift_5x5.v
+HDL-1007 : analyze verilog file ../rtl/ISP/med_filter_proc.v
+HDL-1007 : analyze verilog file ../rtl/ISP/vip_matrix_generate_3x3_8bit.v
+HDL-1007 : analyze verilog file ../rtl/ISP/vip_matrix_generate_5x5_8bit.v
+HDL-1007 : analyze verilog file ../rtl/UART/UART_RX.v
+HDL-1007 : analyze verilog file ../rtl/UART/UART_TX.v
+HDL-1007 : analyze verilog file ../rtl/UART/clkuart_pwm.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_MedFilter.v
+HDL-1007 : analyze verilog file ../rtl/UART/FIFO.v
+RUN-1001 : Project manager successfully analyzed 56 source files.
+RUN-1003 : finish command "open_project CortexM0_SoC.al -update" in  1.011205s wall, 0.781250s user + 0.343750s system = 1.125000s CPU (111.3%)
+
+RUN-1004 : used memory is 131 MB, reserved memory is 94 MB, peak memory is 131 MB
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.

@@ -1,0 +1,13 @@
+Dependencies for Project 'code', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\Compiler_5
+F (.\startup_CMSDK_CM0.s)(0x6645B469)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Keil\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include--pd "__UVISION_VERSION SETA 539" --pd "CMSDK_CM0 SETA 1"--list .\listings\startup_cmsdk_cm0.lst --xref -o .\startup_cmsdk_cm0.o --depend .\startup_cmsdk_cm0.d)
+F (.\main.c)(0x6645C09F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --enum_is_int-ID:\Keil\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-D__UVISION_VERSION="539" -DCMSDK_CM0-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (D:\Keil\ARM\Compiler_5\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil\ARM\Compiler_5\include\stdio.h)(0x5E8E3CC2)
+I (code_def.h)(0x6645BCBF)
+F (.\code_def.c)(0x664998D5)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --enum_is_int-ID:\Keil\Keil\V2M-MPS2_CMx_BSP\1.8.2\Device\CMSDK_CM0\Include-D__UVISION_VERSION="539" -DCMSDK_CM0-o .\code_def.o --omf_browse .\code_def.crf --depend .\code_def.d)
+I (D:\Keil\ARM\Compiler_5\include\string.h)(0x5E8E3CC2)
+I (D:\Keil\ARM\Compiler_5\include\stdio.h)(0x5E8E3CC2)
+I (code_def.h)(0x6645BCBF)
+I (D:\Keil\ARM\Compiler_5\include\stdint.h)(0x5E8E3CC2)
+F (.\code_def.h)(0x6645BCBF)()

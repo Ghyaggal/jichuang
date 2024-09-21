@@ -1,0 +1,619 @@
+============================================================
+   Tang Dynasty, V5.6.59063
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/Anlogic/TD5.6.59063/bin/td.exe
+   Built at =   12:45:13 Sep  6 2022
+   Run by =     Daggal
+   Run Date =   Thu May  9 17:04:33 2024
+
+   Run on =     DESKTOP-I7CAGU2
+============================================================
+RUN-1002 : start command "open_project CortexM0_SoC.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/PLL.v(82)
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_LED.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Matrix_Key.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Timer.v
+HDL-1007 : analyze verilog file ../../../rtl/Block_RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/CortexM0_SoC.v
+HDL-1007 : analyze verilog file ../../../rtl/Keyboard.v
+HDL-1007 : analyze verilog file ../../../rtl/cortexm0ds_logic.v
+RUN-1001 : Project manager successfully analyzed 12 source files.
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "elaborate -top CortexM0_SoC"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-5007 WARNING: port 'CODENSEQ' remains unconnected for this instance in ../../../rtl/CortexM0_SoC.v(109)
+HDL-1007 : elaborate module CortexM0_SoC in ../../../rtl/CortexM0_SoC.v(2)
+HDL-1007 : elaborate module PLL in ../../al_ip/PLL.v(23)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(8)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=40,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",CLKC0_CPHASE=9,CLKC1_CPHASE=39,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in D:/Anlogic/TD5.6.59063/arch/eagle_macro.v(929)
+HDL-1007 : elaborate module Keyboard in ../../../rtl/Keyboard.v(1)
+HDL-1007 : elaborate module cortexm0ds_logic in ../../../rtl/cortexm0ds_logic.v(27)
+HDL-1007 : elaborate module AHBlite_Interconnect in ../../../rtl/AHBlite_Interconnect.v(1)
+HDL-1007 : elaborate module AHBlite_Decoder in ../../../rtl/AHBlite_Decoder.v(1)
+HDL-1007 : elaborate module AHBlite_SlaveMUX in ../../../rtl/AHBlite_SlaveMUX.v(1)
+HDL-1007 : elaborate module AHBlite_Block_RAM in ../../../rtl/AHBlite_Block_RAM.v(1)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../../../rtl/CortexM0_SoC.v(362)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_WRADDR' in ../../../rtl/CortexM0_SoC.v(363)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_RDADDR' in ../../../rtl/CortexM0_SoC.v(364)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../../../rtl/CortexM0_SoC.v(395)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_WRADDR' in ../../../rtl/CortexM0_SoC.v(396)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'BRAM_RDADDR' in ../../../rtl/CortexM0_SoC.v(397)
+HDL-1007 : elaborate module AHBlite_LED in ../../../rtl/AHBlite_LED.v(1)
+HDL-1007 : elaborate module AHBlite_Timer in ../../../rtl/AHBlite_Timer.v(1)
+HDL-1007 : elaborate module AHBlite_Matrix_Key in ../../../rtl/AHBlite_Matrix_Key.v(1)
+HDL-1007 : elaborate module Block_RAM in ../../../rtl/Block_RAM.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/Block_RAM.v(12)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addra' in ../../../rtl/CortexM0_SoC.v(492)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addrb' in ../../../rtl/CortexM0_SoC.v(493)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addra' in ../../../rtl/CortexM0_SoC.v(501)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 12 for port 'addrb' in ../../../rtl/CortexM0_SoC.v(502)
+HDL-5007 WARNING: net 'bps_en_rx' does not have a driver in ../../../rtl/CortexM0_SoC.v(519)
+HDL-5007 WARNING: net 'bps_en_tx' does not have a driver in ../../../rtl/CortexM0_SoC.v(519)
+HDL-1200 : Current top model is CortexM0_SoC
+HDL-1100 : Inferred 1 RAMs.
+RUN-1003 : finish command "elaborate -top CortexM0_SoC" in  1.443962s wall, 1.375000s user + 0.046875s system = 1.421875s CPU (98.5%)
+
+RUN-1004 : used memory is 180 MB, reserved memory is 152 MB, peak memory is 315 MB
+RUN-1002 : start command "export_db CortexM0_SoC_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "read_adc ../../M0.adc"
+RUN-1002 : start command "set_pin_assignment  Col[0]   LOCATION = E11; "
+RUN-1002 : start command "set_pin_assignment  Col[1]   LOCATION = D11; "
+RUN-1002 : start command "set_pin_assignment  Col[2]   LOCATION = C11; "
+RUN-1002 : start command "set_pin_assignment  Col[3]   LOCATION = F10; "
+RUN-1002 : start command "set_pin_assignment  LED[0]   LOCATION = B14; "
+RUN-1002 : start command "set_pin_assignment  LED[1]   LOCATION = B15; "
+RUN-1002 : start command "set_pin_assignment  LED[2]   LOCATION = B16; "
+RUN-1002 : start command "set_pin_assignment  LED[3]   LOCATION = C15; "
+RUN-1002 : start command "set_pin_assignment  LED[4]   LOCATION = C16; "
+RUN-1002 : start command "set_pin_assignment  LED[5]   LOCATION = E13; "
+RUN-1002 : start command "set_pin_assignment  LED[6]   LOCATION = E16; "
+RUN-1002 : start command "set_pin_assignment  LED[7]   LOCATION = F16; "
+RUN-1002 : start command "set_pin_assignment  RSTn   LOCATION = J4; "
+RUN-1002 : start command "set_pin_assignment  Row[0]   LOCATION = E10; "
+RUN-1002 : start command "set_pin_assignment  Row[1]   LOCATION = C10; "
+RUN-1002 : start command "set_pin_assignment  Row[2]   LOCATION = F9; "
+RUN-1002 : start command "set_pin_assignment  Row[3]   LOCATION = D9; "
+RUN-1002 : start command "set_pin_assignment  SWCLK   LOCATION = P2; "
+RUN-1002 : start command "set_pin_assignment  SWDIO   LOCATION = R2; "
+RUN-1002 : start command "set_pin_assignment  System_clk   LOCATION = R7; "
+RUN-1002 : start command "set_pin_assignment  key[0]   LOCATION = A9; "
+RUN-1002 : start command "set_pin_assignment  key[1]   LOCATION = A10; "
+RUN-1002 : start command "set_pin_assignment  key[2]   LOCATION = B10; "
+RUN-1002 : start command "set_pin_assignment  key[3]   LOCATION = A11; "
+RUN-1002 : start command "set_pin_assignment  key[4]   LOCATION = A12; "
+RUN-1002 : start command "set_pin_assignment  key[5]   LOCATION = B12; "
+RUN-1002 : start command "set_pin_assignment  key[6]   LOCATION = A13; "
+RUN-1002 : start command "set_pin_assignment  key[7]   LOCATION = A14; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "CortexM0_SoC"
+SYN-1012 : SanityCheck: Model "AHBlite_Interconnect"
+SYN-1012 : SanityCheck: Model "AHBlite_Decoder"
+SYN-1012 : SanityCheck: Model "AHBlite_SlaveMUX"
+SYN-1012 : SanityCheck: Model "AHBlite_LED"
+SYN-1012 : SanityCheck: Model "AHBlite_Matrix_Key"
+SYN-1012 : SanityCheck: Model "PLL"
+SYN-1012 : SanityCheck: Model "AHBlite_Block_RAM"
+SYN-1012 : SanityCheck: Model "Block_RAM"
+SYN-1012 : SanityCheck: Model "AHBlite_Timer"
+SYN-1012 : SanityCheck: Model "Keyboard"
+SYN-1012 : SanityCheck: Model "cortexm0ds_logic"
+SYN-1043 : Mark PLL as IO macro for instance bufg_feedback
+SYN-1011 : Flatten model CortexM0_SoC
+SYN-1032 : 25397/520 useful/useless nets, 23784/445 useful/useless insts
+SYN-1016 : Merged 2967 instances.
+SYN-1025 : Merged 4 RAM ports.
+SYN-1025 : Merged 2 RAM ports.
+SYN-1025 : Merged 2 RAM ports.
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_15)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1025 : Merged 2 RAM ports.
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_20)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_25)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_30)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_15)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_20)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_25)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_30)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 0 Logic DRAMs, 8 Logic BRAMs.
+SYN-1032 : 22791/1445 useful/useless nets, 21202/1156 useful/useless insts
+SYN-1016 : Merged 39 instances.
+SYN-1032 : 22647/0 useful/useless nets, 22137/32 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 2 const input seq instances
+SYN-1002 :     u_logic/K7vpw6_reg
+SYN-1002 :     u_logic/Xbopw6_reg
+SYN-1019 : Optimized 5 mux instances.
+SYN-1021 : Optimized 8 onehot mux instances.
+SYN-1020 : Optimized 52 distributor mux.
+SYN-1019 : Optimized 40 mux instances.
+SYN-1016 : Merged 63 instances.
+SYN-1015 : Optimize round 1, 3378 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 4 inv instances.
+SYN-1032 : 21533/9 useful/useless nets, 21023/89 useful/useless insts
+SYN-1019 : Optimized 32 mux instances.
+SYN-1020 : Optimized 32 distributor mux.
+SYN-1016 : Merged 63 instances.
+SYN-1015 : Optimize round 2, 228 better
+SYN-1032 : 21469/32 useful/useless nets, 20959/32 useful/useless insts
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-1032 : 21465/4 useful/useless nets, 20955/3 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1032 : 21458/0 useful/useless nets, 20948/1 useful/useless insts
+SYN-1015 : Optimize round 1, 7 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+RUN-1003 : finish command "optimize_rtl" in  6.360880s wall, 5.890625s user + 0.421875s system = 6.312500s CPU (99.2%)
+
+RUN-1004 : used memory is 190 MB, reserved memory is 160 MB, peak memory is 315 MB
+RUN-1002 : start command "report_area -file CortexM0_SoC_rtl.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        28
+  #input                   15
+  #output                  12
+  #inout                    1
+
+Gate Statistics
+#Basic gates            20396
+  #and                   9680
+  #nand                     0
+  #or                    2023
+  #nor                      0
+  #xor                     72
+  #xnor                     0
+  #buf                      0
+  #not                   6458
+  #bufif1                   1
+  #MX21                   521
+  #FADD                     0
+  #DFF                   1641
+  #LATCH                    0
+#MACRO_ADD                 18
+#MACRO_EQ                  38
+#MACRO_MULT                 1
+#MACRO_MUX                483
+#MACRO_OTHERS               9
+
+Report Hierarchy Area:
++---------------------------------------------------------------------+
+|Instance               |Module               |gates  |seq    |macros |
++---------------------------------------------------------------------+
+|top                    |CortexM0_SoC         |18755  |1641   |66     |
+|  Interconncet         |AHBlite_Interconnect |245    |5      |5      |
+|    Decoder            |AHBlite_Decoder      |0      |0      |5      |
+|    SlaveMUX           |AHBlite_SlaveMUX     |245    |5      |0      |
+|  LED_Interface        |AHBlite_LED          |98     |62     |9      |
+|  Matrix_Key_Interface |AHBlite_Matrix_Key   |2      |5      |0      |
+|  PLL_inst             |PLL                  |0      |0      |1      |
+|  RAMCODE_Interface    |AHBlite_Block_RAM    |15     |17     |0      |
+|  RAMDATA_Interface    |AHBlite_Block_RAM    |2      |17     |0      |
+|  RAM_CODE             |Block_RAM            |0      |0      |4      |
+|  RAM_DATA             |Block_RAM            |0      |0      |4      |
+|  Timer_Interface      |AHBlite_Timer        |39     |68     |5      |
+|  kb                   |Keyboard             |0      |160    |24     |
+|  u_logic              |cortexm0ds_logic     |18352  |1305   |14     |
++---------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db CortexM0_SoC_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "read_sdc ../../sysclk_adc.sdc"
+USR-1009 : NO module with IP_SDC ...
+RUN-1002 : start command "get_nets  clk "
+RUN-1002 : start command "create_clock -name clk -period 40 -waveform 0 20 "
+RUN-1102 : create_clock: clock name: clk, type: 0, period: 40000, rise: 0, fall: 20000.
+RUN-1002 : start command "get_ports  System_clk "
+RUN-1002 : start command "create_clock -name System_clk -period 20 -waveform 0 10 "
+RUN-1102 : create_clock: clock name: System_clk, type: 0, period: 20000, rise: 0, fall: 10000.
+RUN-1104 : Import SDC file ../../sysclk_adc.sdc finished, there are 1 nets kept by constraints.
+RUN-1002 : start command "optimize_gate -maparea CortexM0_SoC_gate.area"
+RUN-1001 : Open license file D:/Anlogic/TD5.6.59063/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |    off     |       off        |        
+RUN-1001 :        map_sim_model        |    off     |       off        |        
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-2001 : Map 28 IOs to PADs
+SYN-1032 : 21488/0 useful/useless nets, 20977/1 useful/useless insts
+RUN-1002 : start command "update_pll_param -module CortexM0_SoC"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 1 BUFG to GCLK
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_15 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_20 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_25 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_30 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_15 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_20 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_25 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_30 is set to PDPW/SP from DP for resource saving
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_32"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_34"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_36"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_38"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_32"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_34"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_36"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_38"
+SYN-2571 : Map 1 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 21596/68 useful/useless nets, 20998/1 useful/useless insts
+SYN-1016 : Merged 15 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 84 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1001 : Throwback 106 control mux instances
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 59 instances.
+SYN-2501 : Optimize round 1, 544 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 19 macro adder
+SYN-1016 : Merged 19 instances.
+SYN-1032 : 23025/2 useful/useless nets, 22495/0 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model CortexM0_SoC.
+TMR-2506 : Build timing graph completely. Port num: 8, tpin num: 64002, tnet num: 23025, tinst num: 22494, tnode num: 68241, tedge num: 83358.
+TMR-2508 : Levelizing timing graph completed, there are 271 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 23025 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 2 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 5297 (3.71), #lev = 34 (9.87)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 5297 (3.71), #lev = 34 (9.87)
+SYN-3001 : Logic optimization runtime opt =   1.33 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 20368 instances into 5297 LUTs, name keeping = 40%.
+RUN-1002 : start command "report_area -file CortexM0_SoC_gate.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        28
+  #input                   15
+  #output                  12
+  #inout                    1
+
+LUT Statistics
+#Total_luts              5737
+  #lut4                  4412
+  #lut5                   885
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             440
+
+Utilization Statistics
+#lut                     5737   out of  19600   29.27%
+#reg                     1641   out of  19600    8.37%
+#le                         0
+#dsp                        3   out of     29   10.34%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#pad                       28   out of    188   14.89%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------+
+|Instance               |Module               |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------+
+|top                    |CortexM0_SoC         |5297    |440     |1641    |8       |3       |
+|  Interconncet         |AHBlite_Interconnect |2       |0       |5       |0       |0       |
+|    SlaveMUX           |AHBlite_SlaveMUX     |0       |0       |5       |0       |0       |
+|  LED_Interface        |AHBlite_LED          |73      |33      |62      |0       |0       |
+|  Matrix_Key_Interface |AHBlite_Matrix_Key   |9       |0       |5       |0       |0       |
+|  PLL_inst             |PLL                  |0       |0       |0       |0       |0       |
+|  RAMCODE_Interface    |AHBlite_Block_RAM    |8       |0       |17      |0       |0       |
+|  RAMDATA_Interface    |AHBlite_Block_RAM    |33      |0       |17      |0       |0       |
+|  RAM_CODE             |Block_RAM            |4       |0       |0       |4       |0       |
+|  RAM_DATA             |Block_RAM            |4       |0       |0       |4       |0       |
+|  Timer_Interface      |AHBlite_Timer        |40      |66      |68      |0       |0       |
+|  kb                   |Keyboard             |208     |168     |160     |0       |0       |
+|  u_logic              |cortexm0ds_logic     |4901    |173     |1305    |0       |3       |
++------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "CortexM0_SoC" ...
+SYN-4010 : Pack lib has 58 rtl pack models with 25 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 1641 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 7 carry chain into lslice
+SYN-4007 : Packing 219 adder to BLE ...
+SYN-4008 : Packed 219 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -maparea CortexM0_SoC_gate.area" in  11.408842s wall, 11.296875s user + 0.093750s system = 11.390625s CPU (99.8%)
+
+RUN-1004 : used memory is 224 MB, reserved memory is 203 MB, peak memory is 358 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model CortexM0_SoC
+RUN-1002 : start command "export_db CortexM0_SoC_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20240509_170433.log"
